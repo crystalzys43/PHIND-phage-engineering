@@ -25,6 +25,7 @@ import streamlit as st
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 RANKED_CSV = PROJECT_ROOT / "results" / "candidate_phages_ranked.csv"
 CLASSIFIED_CSV = PROJECT_ROOT / "data" / "listeria_phages_classified.csv"
+INSERTION_CSV = PROJECT_ROOT / "results" / "insertion_sites_top10.csv"
 
 # PHIND brand palette (matches pitch deck)
 TEAL = "#5BA8A0"
@@ -73,8 +74,16 @@ def load_full() -> pd.DataFrame:
     return df
 
 
+@st.cache_data
+def load_insertions() -> pd.DataFrame:
+    if INSERTION_CSV.exists():
+        return pd.read_csv(INSERTION_CSV)
+    return pd.DataFrame()
+
+
 ranked = load_ranked()
 full = load_full()
+insertions = load_insertions()
 
 
 # ---------------------------------------------------------------------------
@@ -169,12 +178,13 @@ c5.metric("Top-3 mean score", f"{ranked.head(3)['engineering_readiness_score'].m
 # Tabs — main content
 # ---------------------------------------------------------------------------
 
-tab1, tab2, tab3, tab4 = st.tabs(
+tab1, tab2, tab3, tab4, tab5 = st.tabs(
     [
         "🏆 Ranked Candidates",
         "📊 Score Breakdown",
         "🧬 Genome Landscape",
         "📋 Phage Detail",
+        "🎯 Insertion Sites (Phase 2)",
     ]
 )
 
@@ -429,6 +439,148 @@ with tab4:
         columns=["Component", "Score"],
     )
     st.dataframe(components_df, hide_index=True, use_container_width=True)
+
+
+# === Tab 5: Insertion Sites (Phase 2) ====================================
+with tab5:
+    st.markdown("## Reporter cassette insertion sites")
+    st.markdown(
+        "For each top-ranked phage, this tab shows the highest-scoring "
+        "intergenic regions where a luciferase reporter cassette could be "
+        "inserted without disrupting the lytic cycle."
+    )
+
+    if insertions.empty:
+        st.warning(
+            "No insertion-site data found. Run "
+            "`python src/insertion/01_find_insertion_sites.py` first."
+        )
+    else:
+        st.markdown(
+            f"Analyzed **{insertions['accession'].nunique()} phages**, "
+            f"found **{len(insertions)}** candidate insertion sites."
+        )
+
+        # Phage selector
+        phage_acc = st.selectbox(
+            "Choose a phage",
+            options=insertions["accession"].unique(),
+            format_func=lambda a: f"{a}  —  "
+            + insertions[insertions['accession'] == a]['name'].iloc[0][:55],
+            key="insertion_phage",
+        )
+
+        phage_sites = insertions[insertions["accession"] == phage_acc].copy()
+        phage_genome_size = full[full["accession"] == phage_acc]["length_bp"].iloc[0]
+
+        # Top 5 table
+        st.markdown(f"### Top 5 sites in `{phage_acc}`")
+        top5 = phage_sites.head(5)[
+            [
+                "insertion_score", "site_start", "site_end", "gap_bp",
+                "left_gene", "left_category", "right_gene", "right_category",
+                "rationale",
+            ]
+        ]
+        top5.columns = [
+            "Score", "Start", "End", "Gap (bp)",
+            "Left gene", "Left cat.", "Right gene", "Right cat.",
+            "Rationale",
+        ]
+        st.dataframe(
+            top5,
+            hide_index=True,
+            use_container_width=True,
+            column_config={
+                "Score": st.column_config.ProgressColumn(
+                    format="%.1f", min_value=0, max_value=100, width="small"
+                ),
+                "Gap (bp)": st.column_config.NumberColumn(format="%d"),
+                "Rationale": st.column_config.TextColumn(width="large"),
+            },
+        )
+
+        # Linear genome map
+        st.markdown(f"### Linear genome map ({phage_genome_size:,} bp)")
+        fig = go.Figure()
+
+        # Genome backbone
+        fig.add_shape(
+            type="line", x0=0, x1=phage_genome_size, y0=0, y1=0,
+            line=dict(color=NAVY, width=3),
+        )
+
+        # All sites as faint markers
+        for _, s in phage_sites.iterrows():
+            color = TEAL if s["insertion_score"] >= 70 else "#999999"
+            mid = (s["site_start"] + s["site_end"]) / 2
+            fig.add_trace(
+                go.Scatter(
+                    x=[mid], y=[0.05], mode="markers",
+                    marker=dict(size=8, color=color, opacity=0.5),
+                    showlegend=False,
+                    hovertext=f"Score {s['insertion_score']:.0f}<br>{s['left_gene']} | {s['right_gene']}",
+                    hoverinfo="text",
+                )
+            )
+
+        # Top 5 with labels
+        for i, (_, s) in enumerate(phage_sites.head(5).iterrows()):
+            mid = (s["site_start"] + s["site_end"]) / 2
+            fig.add_trace(
+                go.Scatter(
+                    x=[mid], y=[0.5 + i * 0.15], mode="markers+text",
+                    marker=dict(size=14, color=TEAL_DARK, symbol="triangle-down"),
+                    text=[f"#{i+1} ({s['insertion_score']:.0f})"],
+                    textposition="top center",
+                    textfont=dict(size=10, color=NAVY),
+                    showlegend=False,
+                    hovertext=f"Score {s['insertion_score']:.0f}<br>"
+                    f"Position {int(mid):,}<br>"
+                    f"{s['rationale']}",
+                    hoverinfo="text",
+                )
+            )
+            # Connector line from label to genome
+            fig.add_shape(
+                type="line", x0=mid, x1=mid, y0=0, y1=0.5 + i * 0.15,
+                line=dict(color=TEAL, width=1, dash="dot"),
+            )
+
+        fig.update_layout(
+            height=350,
+            margin=dict(l=30, r=30, t=30, b=40),
+            xaxis=dict(
+                title="Genome position (bp)",
+                range=[-1000, phage_genome_size + 1000],
+                showgrid=False,
+            ),
+            yaxis=dict(showticklabels=False, showgrid=False, range=[-0.3, 1.5]),
+            plot_bgcolor="white",
+        )
+        st.plotly_chart(fig, use_container_width=True)
+
+        st.info(
+            "**Reading the map:** the navy line is the linear phage genome. "
+            "Small dots are all candidate intergenic gaps; teal triangles "
+            "are the top-5 scoring insertion sites. Hover any marker for "
+            "details. Higher-scored sites combine three biological "
+            "properties: comfortable gap size, non-essential flanking "
+            "genes, and proximity to the lysis gene cluster."
+        )
+
+        # Annotation-quality caveat for A511 / P100
+        if phage_acc in {"DQ003638.2", "DQ004855.1"}:
+            st.warning(
+                "⚠ **Annotation caveat:** This phage's NCBI record uses "
+                "minimal gene-product names (gp1, gp2, ...) without "
+                "functional descriptions. As a result, our keyword-based "
+                "categorizer cannot identify essential vs. lysis vs. "
+                "permissive flanks confidently, and scores cap around 55. "
+                "Phase 2.2 will re-annotate these high-priority candidates "
+                "with **Pharokka** to recover functional categories and "
+                "produce more accurate insertion-site scoring."
+            )
 
 
 # ---------------------------------------------------------------------------

@@ -1,0 +1,146 @@
+Phase 2 Step 1: Insertion site analysis
+=========================================
+Phages analyzed: 10
+Total candidate sites found: 453
+
+Per-phage top-3 sites:
+
+▸ DQ003638.2 — Listeria phage A511, complete genome (rank #1)
+    score= 55.0  pos  26,142..27,213   gap= 1071 bp
+        left  (other     ): gp59
+        right (other     ): gp60
+        rationale: comfortable gap (1071 bp ≥ 1000) · neither flank essential · far from lysis cluster
+    score= 55.0  pos  30,803..32,165   gap= 1362 bp
+        left  (other     ): gp65
+        right (other     ): gp66
+        rationale: comfortable gap (1362 bp ≥ 1000) · neither flank essential · far from lysis cluster
+    score= 55.0  pos 126,395..127,418  gap= 1023 bp
+        left  (other     ): gp171
+        right (other     ): gp172
+        rationale: comfortable gap (1023 bp ≥ 1000) · neither flank essential · far from lysis cluster
+
+▸ DQ004855.1 — Listeria phage P100, complete genome (rank #2)
+    score= 55.0  pos  92,914..93,941   gap= 1027 bp
+        left  (other     ): gp103
+        right (other     ): gp104
+        rationale: comfortable gap (1027 bp ≥ 1000) · neither flank essential · far from lysis cluster
+    score= 55.0  pos  96,340..97,352   gap= 1012 bp
+        left  (other     ): gp108
+        right (other     ): gp109
+        rationale: comfortable gap (1012 bp ≥ 1000) · neither flank essential · far from lysis cluster
+    score= 55.0  pos 124,019..125,089  gap= 1070 bp
+        left  (other     ): gp166
+        right (other     ): gp167
+        rationale: comfortable gap (1070 bp ≥ 1000) · neither flank essential · far from lysis cluster
+
+▸ JX442241.1 — Listeria phage P70, complete genome (rank #3)
+    score= 60.0  pos  54,664..55,494   gap=  830 bp
+        left  (permissive): hypothetical protein
+        right (permissive): hypothetical protein
+        rationale: tight gap (830 bp) · neither flank essential · far from lysis cluster · both flanks permissive (hypothetical)
+    score= 53.0  pos  49,094..49,912   gap=  818 bp
+        left  (other     ): endonuclease
+        right (permissive): hypothetical protein
+        rationale: tight gap (818 bp) · neither flank essential · far from lysis cluster · one permissive flank
+    score= 50.0  pos   5,447..5,515    gap=   68 bp
+        left  (lysis     ): endolysin
+        right (essential ): terminase large subunit
+        rationale: minimal gap (68 bp) · one flank essential (acceptable) · ⭐ adjacent to lysis gene
+
+▸ MN939539.1 — Listeria phage vB_Lino_VEfB7, complete genome (rank #4)
+    score= 73.0  pos  44,123..44,186   gap=   63 bp
+        left  (permissive): hypothetical protein
+        right (lysis     ): endolysin
+        rationale: minimal gap (63 bp) · neither flank essential · ⭐ adjacent to lysis gene · one permissive flank
+    score= 73.0  pos  45,212..45,384   gap=  172 bp
+        left  (lysis     ): endolysin
+        right (permissive): putative transglycosylase
+        rationale: minimal gap (172 bp) · neither flank essential · ⭐ adjacent to lysis gene · one permissive flank
+    score= 70.0  pos  22,663..22,803   gap=  140 bp
+        left  (permissive): putative phosphoesterase
+        right (permissive): hypothetical protein
+        rationale: minimal gap (140 bp) · neither flank essential · near lysis cluster (494 bp) · both flanks permissive (hypothetical)
+
+▸ JX126919.1 — Listeria phage LP-110, complete genome (rank #5)
+    score= 80.0  pos  10,774..11,426   gap=  652 bp
+        left  (permissive): hypothetical protein
+        right (permissive): hypothetical protein
+        rationale: tight gap (652 bp) · neither flank essential · near lysis cluster (1697 bp) · both flanks permissive (hypothetical)
+    score= 73.0  pos   8,931..8,991    gap=   60 bp
+        left  (permissive): hypothetical protein
+        right (lysis     ): LPXTG cell wall anchor domain containing protein
+        rationale: minimal gap (60 bp) · neither flank essential · ⭐ adjacent to lysis gene · one permissive flank
+    score= 73.0  pos   9,816..9,948    gap=  132 bp
+        left  (lysis     ): LPXTG cell wall anchor domain containing protein
+        right (permissive): hypothetical protein
+        rationale: minimal gap (132 bp) · neither flank essential · ⭐ adjacent to lysis gene · one permissive flank
+
+▸ MN904502.1 — Listeria phage LP-018, complete genome (rank #6)
+    score= 73.0  pos  31,065..31,367   gap=  302 bp
+        left  (lysis     ): P-loop containing nucleoside triphosphate hydrolase
+        right (permissive): hypothetical protein
+        rationale: minimal gap (302 bp) · neither flank essential · ⭐ adjacent to lysis gene · one permissive flank
+    score= 70.0  pos  20,407..21,501   gap= 1094 bp
+        left  (permissive): hypothetical protein
+        right (permissive): HNH homing endonuclease
+        rationale: comfortable gap (1094 bp ≥ 1000) · neither flank essential · far from lysis cluster · both flanks permissive (hypothetical)
+    score= 70.0  pos  31,778..31,870   gap=   92 bp
+        left  (permissive): hypothetical protein
+        right (permissive): hypothetical protein
+        rationale: minimal gap (92 bp) · neither flank essential · near lysis cluster (1034 bp) · both flanks permissive (hypothetical)
+
+▸ OK283618.1 — Listeria phage LPML1, complete genome (rank #7)
+    score= 70.0  pos  37,522..39,413   gap= 1891 bp
+        left  (permissive): hypothetical protein
+        right (permissive): hypothetical protein
+        rationale: comfortable gap (1891 bp ≥ 1000) · neither flank essential · far from lysis cluster · both flanks permissive (hypothetical)
+    score= 60.0  pos  46,632..47,493   gap=  861 bp
+        left  (permissive): hypothetical protein
+        right (permissive): hypothetical protein
+        rationale: tight gap (861 bp) · neither flank essential · far from lysis cluster · both flanks permissive (hypothetical)
+    score= 60.0  pos  47,787..48,712   gap=  925 bp
+        left  (permissive): hypothetical protein
+        right (permissive): hypothetical protein
+        rationale: tight gap (925 bp) · neither flank essential · far from lysis cluster · both flanks permissive (hypothetical)
+
+▸ KJ094020.1 — Listeria phage LP-026, complete genome (rank #8)
+    score= 80.0  pos  31,375..32,066   gap=  691 bp
+        left  (permissive): hypothetical protein
+        right (permissive): hypothetical protein
+        rationale: tight gap (691 bp) · neither flank essential · near lysis cluster (1694 bp) · both flanks permissive (hypothetical)
+    score= 73.0  pos  29,548..29,608   gap=   60 bp
+        left  (permissive): hypothetical protein
+        right (lysis     ): LPXTG cell wall anchor domain-containing protein
+        rationale: minimal gap (60 bp) · neither flank essential · ⭐ adjacent to lysis gene · one permissive flank
+    score= 73.0  pos  30,445..30,579   gap=  134 bp
+        left  (lysis     ): LPXTG cell wall anchor domain-containing protein
+        right (permissive): hypothetical protein
+        rationale: minimal gap (134 bp) · neither flank essential · ⭐ adjacent to lysis gene · one permissive flank
+
+▸ KJ094021.1 — Listeria phage LP-114, complete genome (rank #9)
+    score= 80.0  pos  17,584..18,587   gap= 1003 bp
+        left  (permissive): HNH homing endonuclease
+        right (permissive): putative HNH homing endonuclease
+        rationale: comfortable gap (1003 bp ≥ 1000) · neither flank essential · within 5 kb of lysis cluster · both flanks permissive (hypothetical)
+    score= 80.0  pos  38,578..39,228   gap=  650 bp
+        left  (permissive): hypothetical protein
+        right (permissive): hypothetical protein
+        rationale: tight gap (650 bp) · neither flank essential · near lysis cluster (1686 bp) · both flanks permissive (hypothetical)
+    score= 73.0  pos  36,739..36,799   gap=   60 bp
+        left  (permissive): hypothetical protein
+        right (lysis     ): LPXTG cell wall anchor domain-containing protein
+        rationale: minimal gap (60 bp) · neither flank essential · ⭐ adjacent to lysis gene · one permissive flank
+
+▸ MN114083.1 — Listeria phage LP-013, complete genome (rank #10)
+    score= 70.0  pos  20,944..22,038   gap= 1094 bp
+        left  (permissive): hypothetical protein
+        right (permissive): HNH homing endonuclease
+        rationale: comfortable gap (1094 bp ≥ 1000) · neither flank essential · far from lysis cluster · both flanks permissive (hypothetical)
+    score= 60.0  pos  43,247..44,063   gap=  816 bp
+        left  (permissive): hypothetical protein
+        right (permissive): hypothetical protein
+        rationale: tight gap (816 bp) · neither flank essential · far from lysis cluster · both flanks permissive (hypothetical)
+    score= 60.0  pos  48,752..49,392   gap=  640 bp
+        left  (permissive): hypothetical protein
+        right (permissive): hypothetical protein
+        rationale: tight gap (640 bp) · neither flank essential · far from lysis cluster · both flanks permissive (hypothetical)

@@ -17,10 +17,18 @@ This pipeline answers each of those questions using publicly available phage gen
 
 | Phase | PHIND Question | Module | Status |
 |---|---|---|---|
-| **1. Atlas** | Which phage to engineer? | `src/atlas/` | 🚧 In progress |
-| **2. Insertion Site Finder** | Where to insert luciferase? | `src/insertion/` | 📋 Planned |
+| **1. Atlas** | Which phage to engineer? | `src/atlas/` | ✅ Complete |
+| **2. Insertion Site Finder** | Where to insert luciferase? | `src/insertion/` | 🚧 v1 complete; Pharokka re-annotation planned |
 | **3. Host Range Predictor** | Which strains can it detect? | `src/host_range/` | 📋 Planned |
 | **4. Cocktail Designer** | What cocktail composition? | `src/cocktail/` | 📋 Planned |
+
+### Interactive dashboard
+
+```bash
+streamlit run dashboard/app.py
+```
+
+Opens a local browser dashboard with five tabs: ranked candidates, score breakdown, genome landscape, phage detail card, and Phase 2 insertion sites with linear genome maps.
 
 ---
 
@@ -56,6 +64,29 @@ The first deliverable is a ranked, searchable atlas of every publicly sequenced 
 | 5 | 85/100 | JX126919.1 | LP-110 | Mid-size, broadly representative of LP-series |
 
 PHIND wet-lab implication: start with **A511** as primary backbone (deepest reporter-engineering literature), **P100** as secondary (regulatory advantages), and the **LP-series** as cocktail-diversity options.
+
+---
+
+## Phase 2: Insertion Site Finder (v1)
+
+For the top-10 ranked phages, Phase 2 identifies intergenic regions where a luciferase cassette could be inserted without disrupting the lytic cycle.
+
+### Scoring biology
+
+Each candidate site scores 0–100 across four criteria:
+
+- **Gap size** (≥1 kb comfortable; ≥500 bp tight; ≥50 bp minimal)
+- **Flank essentiality** (neither essential = best; both essential = excluded)
+- **Lysis-cluster proximity** (adjacent to endolysin/holin = preferred; this is the published Loessner 1996 A511-*luxAB* insertion locale)
+- **Permissive-flank bonus** (hypothetical-protein flanks are safest)
+
+Gene categories (essential / lysis / permissive / other) are assigned by keyword matching on NCBI CDS product names.
+
+### Findings & known limitation
+
+- For phages with rich functional annotation (P70, LP-series, vB_Lino_VEfB7), Phase 2 successfully identifies sites adjacent to endolysin / lysis cluster — the textbook Loessner insertion locale.
+- For **A511 and P100**, the NCBI records use minimal gene-product names (`gp1`, `gp2`, …) without functional descriptions, so our keyword classifier cannot categorize flanks. Their top sites cap at 55/100 — a *data-annotation* artifact, not a biological deficiency.
+- **Phase 2 next step:** re-annotate the top-5 candidates with [Pharokka](https://github.com/gbouras13/pharokka) to recover functional categories and produce calibrated insertion scores across all candidates.
 
 ### Step 2 sanity check
 
