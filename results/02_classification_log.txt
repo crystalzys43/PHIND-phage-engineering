@@ -1,0 +1,8 @@
+Step 2 classification summary
+=============================
+Total .gb files processed:               230
+  → with Listeria host:                  128
+      → lytic (REPORTER CANDIDATES):    32
+      → temperate (excluded):           96
+
+Output CSV: /Users/crystalzhao/Desktop/Crystal/College/Vibe Coding/PHIND-phage-engineering/data/listeria_phages_classified.csv

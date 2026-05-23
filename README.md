@@ -29,13 +29,34 @@ This pipeline answers each of those questions using publicly available phage gen
 The first deliverable is a ranked, searchable atlas of every publicly sequenced *Listeria* phage, annotated with the features that matter for reporter-phage engineering:
 
 - Genome size and GC content
-- Lytic vs. temperate lifestyle (BACPHLIP classifier)
-- Functional gene annotation (Pharokka)
-- Reported host range (INPHARED metadata)
-- Genome similarity clusters (mash distance)
-- Engineering-readiness score (composite ranking)
+- Lytic vs. temperate lifestyle (transparent gene-content heuristic)
+- Functional gene annotation (planned: Pharokka)
+- Reported host range (planned: INPHARED metadata)
+- Genome similarity clusters (planned: mash distance)
+- Engineering-readiness score (planned: composite ranking)
 
 **Output:** a CSV of ranked candidates and an interactive Streamlit dashboard.
+
+### Progress so far
+
+| Step | Script | Records | Outcome |
+|---|---|---|---|
+| 1. Collect genomes | `src/atlas/01_collect_genomes.py` | 230 candidate phage genomes from NCBI | `data/listeria_phages.csv` |
+| 2. Filter + classify lifestyle | `src/atlas/02_classify_lifestyle.py` | 230 → 128 Listeria hosts → **32 lytic reporter candidates** | `data/listeria_phages_classified.csv` |
+
+### Step 2 sanity check
+
+The Step 2 classifier rediscovered **A511** and **P100** as top candidates from the raw public data — these are the same two phages the Listeria reporter-phage literature has converged on since 1996. This validates that the lifestyle-classification heuristic captures the right biology.
+
+**Top 5 lytic Listeria phages by genome size:**
+
+| Accession | Size (bp) | Phage | Note |
+|---|---:|---|---|
+| OQ999172.1 | 181,606 | LIS04 | Giant Herelleviridae |
+| DQ003638.2 | 137,619 | **A511** | Loessner 1996 reporter backbone |
+| MN939539.1 | 135,461 | vB_Lino_VEfB7 | Recent giant |
+| DQ004855.1 | 131,384 | **P100** | FDA-approved LISTEX biocontrol |
+| OK283618.1 | 87,038 | LPML1 | Mid-size |
 
 ---
 
