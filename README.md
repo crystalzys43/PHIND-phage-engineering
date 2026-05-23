@@ -43,6 +43,19 @@ The first deliverable is a ranked, searchable atlas of every publicly sequenced 
 |---|---|---|---|
 | 1. Collect genomes | `src/atlas/01_collect_genomes.py` | 230 candidate phage genomes from NCBI | `data/listeria_phages.csv` |
 | 2. Filter + classify lifestyle | `src/atlas/02_classify_lifestyle.py` | 230 → 128 Listeria hosts → **32 lytic reporter candidates** | `data/listeria_phages_classified.csv` |
+| 3. Rank by engineering readiness | `src/atlas/03_rank_candidates.py` | 32 lytic → 25 unique → **ranked 1–25** | `results/candidate_phages_ranked.csv` |
+
+### Phase 1 final output: top 5 PHIND reporter-phage candidates
+
+| Rank | Score | Accession | Phage | Why this matters |
+|---:|---:|---|---|---|
+| 1 | 100/100 | DQ003638.2 | **A511** | Loessner 1996 — the original luxAB reporter phage backbone |
+| 2 | 100/100 | DQ004855.1 | **P100** | FDA-approved LISTEX biocontrol; large existing safety dossier |
+| 3 | 95/100 | JX442241.1 | P70 | Group B Listeria phage; Klumpp 2014 characterization |
+| 4 | 90/100 | MN939539.1 | vB_Lino_VEfB7 | Recently characterized giant; similar architecture to A511 |
+| 5 | 85/100 | JX126919.1 | LP-110 | Mid-size, broadly representative of LP-series |
+
+PHIND wet-lab implication: start with **A511** as primary backbone (deepest reporter-engineering literature), **P100** as secondary (regulatory advantages), and the **LP-series** as cocktail-diversity options.
 
 ### Step 2 sanity check
 
