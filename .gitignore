@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Data — keep small CSVs but ignore big raw downloads
+data/raw/
+data/*.gb
+data/*.fasta
+data/*.fa
+data/*.gz
+!data/.gitkeep
+!data/README.md
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Results — keep CSV summaries, ignore large intermediates
+results/intermediate/

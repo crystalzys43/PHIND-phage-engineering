@@ -1,0 +1,5 @@
+NCBI query: ("Listeria"[Organism] OR Listeria[All Fields]) AND ("complete genome"[Title] OR "complete sequence"[Title]) AND (phage[Title] OR bacteriophage[Title]) AND 15000:250000[SLEN]
+Records found: 230
+Records downloaded successfully: 230
+Genomes stored under: /Users/crystalzhao/Desktop/Crystal/College/Vibe Coding/PHIND-phage-engineering/data/raw
+Metadata CSV: /Users/crystalzhao/Desktop/Crystal/College/Vibe Coding/PHIND-phage-engineering/data/listeria_phages.csv
