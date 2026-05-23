@@ -1,6 +1,42 @@
-# PHIND Phage Engineering Pipeline
+<div align="center">
 
-> An open-source pipeline that helps phage engineers decide **which phage to engineer**, **where to insert reporter genes**, **which bacterial strains it will detect**, and **how to design optimal phage cocktails** — built to support [PHIND](https://example.com)'s reporter phage development.
+# 🧬 PHIND Phage Engineering Pipeline
+
+**An open-source pipeline that ranks bacteriophages for reporter-phage engineering, identifies safe luciferase insertion sites, predicts host range, and designs optimal phage cocktails — built to support the PHIND food-safety screening platform.**
+
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Phase%201-Complete-success)
+![Status](https://img.shields.io/badge/Phase%202-v1%20Complete-yellow)
+[![Streamlit](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://github.com/crystalzys43/PHIND-phage-engineering)
+
+![Pipeline funnel](docs/images/pipeline_funnel.png)
+
+</div>
+
+---
+
+## At a glance
+
+> Starting from every publicly sequenced *Listeria* phage genome in NCBI, this pipeline filters by host specificity, classifies lifestyle, deduplicates against RefSeq, and ranks candidates on five biological criteria — producing an evidence-backed wet-lab ordering list for PHIND's reporter-phage development.
+
+**Top 5 reporter-phage candidates** (full ranking in `results/candidate_phages_ranked.csv`):
+
+| Rank | Score | Accession | Phage | Why this matters |
+|---:|---:|---|---|---|
+| 1 | 100/100 | DQ003638.2 | **A511** | Loessner 1996 — the original luxAB reporter phage backbone |
+| 2 | 100/100 | DQ004855.1 | **P100** | FDA-approved LISTEX biocontrol; mature safety dossier |
+| 3 | 95/100 | JX442241.1 | P70 | Klumpp 2014 characterization |
+| 4 | 90/100 | MN939539.1 | vB_Lino_VEfB7 | Recently characterized A511-like giant |
+| 5 | 85/100 | JX126919.1 | LP-110 | Mid-size, broadly representative of LP-series |
+
+The pipeline **independently rediscovered A511 and P100** as top candidates — matching three decades of published reporter-phage literature, but from public genomic data alone.
+
+![Top-10 scoreboard](docs/images/top10_scoreboard.png)
+
+---
+
+## The four scientific questions
 
 PHIND is a phage-based bacterial contamination screening platform for food manufacturing QA. Building it requires engineering **reporter phages** — phages modified to produce a measurable signal (luciferase) when they infect target food pathogens. Before any wet-lab work begins, four decisions have to be made:
 
@@ -29,6 +65,38 @@ streamlit run dashboard/app.py
 ```
 
 Opens a local browser dashboard with five tabs: ranked candidates, score breakdown, genome landscape, phage detail card, and Phase 2 insertion sites with linear genome maps.
+
+---
+
+## Pipeline architecture
+
+```mermaid
+flowchart TD
+    NCBI[(NCBI Nucleotide<br/>Public Database)] -->|"esearch + efetch<br/>Biopython"| S1[Step 1: Collect<br/>230 candidate genomes]
+    S1 --> S2[Step 2: Filter + Classify<br/>128 Listeria hosts<br/>32 lytic candidates]
+    S2 --> S3[Step 3: Rank<br/>5-dimension scoring<br/>25 unique candidates]
+    S3 --> P2[Phase 2: Insertion Site Finder<br/>Intergenic gap analysis<br/>Lysis-cluster proximity scoring]
+    S3 -.-> D[Streamlit Dashboard]
+    P2 -.-> D
+    S3 -.-> WL[PHIND Wet Lab:<br/>A511, P100, P70 orders]
+    P2 -.-> WL
+
+    style NCBI fill:#E8F4F2,stroke:#2D6E68
+    style S1 fill:#5BA8A0,color:#fff,stroke:#2D6E68
+    style S2 fill:#5BA8A0,color:#fff,stroke:#2D6E68
+    style S3 fill:#1A2F4D,color:#fff,stroke:#1A2F4D
+    style P2 fill:#1A2F4D,color:#fff,stroke:#1A2F4D
+    style D fill:#A0D8D2,stroke:#2D6E68
+    style WL fill:#E6A85C,color:#fff,stroke:#000
+```
+
+---
+
+## Listeria phage landscape
+
+The pipeline doesn't just produce a number — it makes the biology visible. The plot below shows the full set of phage genomes by size and GC content, color-coded by lifestyle. A511 and P100 (gold stars) sit at the apex of the giant *Herelleviridae* clade and emerge naturally as top engineering candidates.
+
+![Genome landscape](docs/images/genome_landscape.png)
 
 ---
 
@@ -120,9 +188,25 @@ cd PHIND-phage-engineering
 # install
 pip install -r requirements.txt
 
-# run Phase 1 step 1: collect Listeria phage genomes
-python src/atlas/01_collect_genomes.py
+# run the full Phase 1 + Phase 2 pipeline
+python src/atlas/01_collect_genomes.py        # ~5 min, downloads 230 genomes
+python src/atlas/02_classify_lifestyle.py     # ~1 sec
+python src/atlas/03_rank_candidates.py        # <1 sec
+python src/insertion/01_find_insertion_sites.py  # <1 sec
+
+# launch the interactive dashboard
+streamlit run dashboard/app.py
 ```
+
+The pipeline is **idempotent** — every step can be re-run safely. Genome downloads are cached locally, so subsequent runs don't re-query NCBI.
+
+## How to read the results
+
+Anyone landing on this repo can answer the question *"which Listeria phage should PHIND engineer first?"* without running anything:
+
+1. Open [`results/candidate_phages_ranked.csv`](results/candidate_phages_ranked.csv) for the final ranking
+2. Open [`results/insertion_sites_top10.csv`](results/insertion_sites_top10.csv) for predicted luciferase insertion loci
+3. Re-run the dashboard locally for interactive exploration
 
 ---
 
