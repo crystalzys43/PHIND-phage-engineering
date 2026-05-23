@@ -97,9 +97,17 @@ python src/atlas/01_collect_genomes.py
 
 ## Author
 
-Crystal (Yushan) Zhao — Founder & Team Lead, PHIND
+**Crystal (Yushan) Zhao** — Founder & Team Lead, PHIND
 Undergraduate researcher in phage biology, University of Illinois Urbana-Champaign
 yushanz5@illinois.edu
+
+I designed this pipeline, made all scientific decisions (target pathogen, ranking criteria, classification heuristic, deduplication strategy), and own the interpretation of every result. I am happy to walk through any step in detail.
+
+## How this was built
+
+This project was developed using **Claude (Anthropic) as a pair-programming partner**. I drove the scientific design and the engineering decisions; Claude helped translate those decisions into Python and explained library choices as we went. Individual commits from Step 2 onward use the `Co-authored-by` trailer; the Step 1 setup commit predates that practice but the same pairing applied.
+
+This is, deliberately, an honest portfolio of how a modern undergraduate scientist works in 2026: bringing biological judgment to the front, using AI tooling to amplify implementation throughput, and being transparent about both.
 
 ## License
 
