@@ -54,9 +54,9 @@ This pipeline answers each of those questions using publicly available phage gen
 | Phase | PHIND Question | Module | Status |
 |---|---|---|---|
 | **1. Atlas** | Which phage to engineer? | `src/atlas/` | ✅ Complete |
-| **2. Insertion Site Finder** | Where to insert luciferase? | `src/insertion/` | 🚧 v1 complete; Pharokka re-annotation planned |
-| **3. Host Range Predictor** | Which strains can it detect? | `src/host_range/` | 📋 Planned |
-| **4. Cocktail Designer** | What cocktail composition? | `src/cocktail/` | 📋 Planned |
+| **2. Insertion Site Finder** | Where to insert luciferase? | `src/insertion/` | ✅ Complete (Pharokka-validated) |
+| **3. Host Range Predictor** | Which strains can it detect? | `src/host_range/` | ✅ v1 complete (ESM-2 protein language model) |
+| **4. Cocktail Designer** | What cocktail composition? | (merged into Phase 3) | ✅ Greedy RBP-cluster covering |
 
 ### Interactive dashboard
 
@@ -152,9 +152,43 @@ Gene categories (essential / lysis / permissive / other) are assigned by keyword
 
 ### Findings & known limitation
 
-- For phages with rich functional annotation (P70, LP-series, vB_Lino_VEfB7), Phase 2 successfully identifies sites adjacent to endolysin / lysis cluster — the textbook Loessner insertion locale.
-- For **A511 and P100**, the NCBI records use minimal gene-product names (`gp1`, `gp2`, …) without functional descriptions, so our keyword classifier cannot categorize flanks. Their top sites cap at 55/100 — a *data-annotation* artifact, not a biological deficiency.
-- **Phase 2 next step:** re-annotate the top-5 candidates with [Pharokka](https://github.com/gbouras13/pharokka) to recover functional categories and produce calibrated insertion scores across all candidates.
+- For phages with rich functional annotation (P70, LP-series, vB_Lino_VEfB7), Phase 2 v1 successfully identifies sites adjacent to endolysin / lysis cluster — the textbook Loessner insertion locale.
+- For **A511 and P100**, the NCBI records use minimal gene-product names (`gp1`, `gp2`, …), so the keyword classifier could not categorize flanks. Their top sites capped at 55/100 — a *data-annotation* artifact, not a biological deficiency.
+- **Phase 2.2 (Pharokka re-annotation)**: re-annotated all top-5 candidates with [Pharokka](https://github.com/gbouras13/pharokka) using PHROG functional categories. A511 and P100 jumped from 55 → 80/100, with top sites placed ~1 kb upstream of the lysis cluster — matching the published Loessner 1996 A511::luxAB insertion locale.
+
+| Phage | Before (v1) | After (Pharokka) | Δ |
+|---|---:|---:|---:|
+| A511 | 55 | **80** | +25 |
+| P100 | 55 | **80** | +25 |
+| P70 | 60 | 70 | +10 |
+| vB_Lino_VEfB7 | 73 | 80 | +7 |
+| LP-110 | 80 | 70 | −10 (removed false-positive lysis hit) |
+
+---
+
+## Phase 3: Host Range Predictor + Cocktail Designer (ESM-2)
+
+A phage's host range is determined primarily by its **receptor binding proteins (RBPs)** — tail fibers, baseplate proteins, tail spikes that recognize the bacterial surface. Two phages with similar RBPs likely infect the same strains; two phages with different RBPs are complementary in a cocktail.
+
+Phase 3 uses **ESM-2** (Meta AI's 35M-parameter protein language model) to embed each RBP into a 480-dimensional vector and:
+
+1. Compute pairwise RBP-repertoire distance between all top candidates
+2. Cluster the 38 extracted RBPs by embedding similarity
+3. Run a greedy cocktail-design algorithm: start with the top-1 phage, then iteratively add the phage that contributes the most novel RBP clusters
+
+### Headline result
+
+**The optimal 2-phage cocktail is A511 + P70**, covering all 8 RBP clusters in the candidate set. Adding P100, vB_Lino_VEfB7, or LP-110 contributes zero new RBP coverage — because A511, P100, and vB_Lino_VEfB7 share essentially identical RBP repertoires (all *Pecentumvirus*), and LP-110 shares with P70.
+
+| Cocktail | Phages | RBP clusters covered | New added |
+|---:|---|---:|---:|
+| 1 | A511 | 6/8 | +6 |
+| **2** | **A511 + P70** | **8/8** | **+2** |
+| 3 | A511 + P70 + P100 | 8/8 | +0 (redundant) |
+
+**PHIND cartridge design implication:** lead with **A511 + P70** for maximum host coverage; add P100 only if regulatory headroom (FDA LISTEX dossier) outweighs the redundancy.
+
+![RBP distance heatmap](results/host_range/phage_distance_heatmap.png)
 
 ### Step 2 sanity check
 

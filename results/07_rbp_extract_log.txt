@@ -1,0 +1,53 @@
+Phase 3 Step 1: RBP extraction + ESM-2 embedding
+================================================
+Pharokka-annotated phages:           5
+RBP-candidate CDS identified:        38
+Proteins with full sequence:         38
+Embedding model:                     facebook/esm2_t12_35M_UR50D
+Embedding shape:                     (38, 480)
+Compute device:                      mps
+
+Per-phage RBP count:
+  ▸ DQ003638.2 (Listeria phage A511, complete genome): 8 RBP proteins
+      - tail fiber protein  (65 aa)
+      - tail fiber protein  (293 aa)
+      - tail sheath  (562 aa)
+      - tail assembly chaperone  (147 aa)
+      - tail associated lysin  (1215 aa)
+      - tail protein with lysin activity  (795 aa)
+      - baseplate protein  (236 aa)
+      - baseplate wedge subunit  (307 aa)
+  ▸ DQ004855.1 (Listeria phage P100, complete genome): 8 RBP proteins
+      - tail fiber protein  (293 aa)
+      - tail sheath  (562 aa)
+      - tail assembly chaperone  (147 aa)
+      - tail associated lysin  (1215 aa)
+      - tail protein with lysin activity  (795 aa)
+      - baseplate protein  (236 aa)
+      - baseplate wedge subunit  (307 aa)
+      - tail fiber protein  (65 aa)
+  ▸ JX126919.1 (Listeria phage LP-110, complete genome): 7 RBP proteins
+      - minor tail protein  (632 aa)
+      - head-tail adaptor  (119 aa)
+      - tail terminator  (139 aa)
+      - major tail protein  (236 aa)
+      - tail length tape measure protein  (970 aa)
+      - distal tail protein Dit  (696 aa)
+      - tail protein  (929 aa)
+  ▸ JX442241.1 (Listeria phage P70, complete genome): 7 RBP proteins
+      - minor tail protein  (632 aa)
+      - head-tail adaptor  (119 aa)
+      - tail terminator  (139 aa)
+      - major tail protein  (236 aa)
+      - tail length tape measure protein  (970 aa)
+      - distal tail protein Dit  (696 aa)
+      - tail protein  (928 aa)
+  ▸ MN939539.1 (Listeria phage vB_Lino_VEfB7, complete g): 8 RBP proteins
+      - tail fiber protein  (65 aa)
+      - tail fiber protein  (293 aa)
+      - tail sheath  (562 aa)
+      - tail assembly chaperone  (147 aa)
+      - tail associated lysin  (1215 aa)
+      - tail protein with lysin activity  (795 aa)
+      - baseplate protein  (236 aa)
+      - baseplate wedge subunit  (348 aa)

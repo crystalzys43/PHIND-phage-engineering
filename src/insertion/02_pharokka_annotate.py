@@ -168,10 +168,10 @@ def parse_pharokka_output(out_dir: Path, accession: str, prefix: str) -> list[di
         rows.append(
             {
                 "accession": accession,
-                "cds_id": r.get("ID", ""),
+                "cds_id": r.get("gene", ""),     # phanotate hash ID (e.g., VCKEDUZA_CDS_0001)
                 "start": int(r.get("start", 0)),
                 "end": int(r.get("stop", 0)),
-                "strand": r.get("frame", ""),
+                "strand": r.get("strand", ""),
                 "phrog_id": r.get("phrog", ""),
                 "phrog_category": r.get("category", ""),  # PHROG functional category
                 "phrog_annot": r.get("annot", ""),         # PHROG product name

@@ -1,0 +1,33 @@
+Phase 3 Step 2: Host-range analysis + cocktail recommendation
+=============================================================
+RBP proteins analyzed:     38
+Phages analyzed:           5
+Embedding model:           ESM-2 (facebook/esm2_t12_35M_UR50D, 480-dim)
+RBP clusters identified:   8
+
+Pairwise RBP-repertoire distance (cosine):
+              DQ003638.2  DQ004855.1  JX126919.1  JX442241.1  MN939539.1
+  DQ003638.2       0.000       0.000       0.026       0.026       0.001
+  DQ004855.1       0.000       0.000       0.026       0.026       0.000
+  JX126919.1       0.026       0.026       0.000       0.000       0.026
+  JX442241.1       0.026       0.026       0.000       0.000       0.026
+  MN939539.1       0.001       0.000       0.026       0.026       0.000
+
+RBPs per cluster:
+  Cluster 0: 11 RBPs across 5 phages
+  Cluster 1: 11 RBPs across 5 phages
+  Cluster 2: 3 RBPs across 3 phages
+  Cluster 3: 3 RBPs across 3 phages
+  Cluster 4: 2 RBPs across 2 phages
+  Cluster 5: 3 RBPs across 3 phages
+  Cluster 6: 2 RBPs across 2 phages
+  Cluster 7: 3 RBPs across 3 phages
+
+Greedy cocktail recommendation:
+Size  Phages                                                        Clusters covered   New added
+----------------------------------------------------------------------------------------------------
+   1  A511                                                                         6  +        6
+   2  A511 + P70                                                                   8  +        2
+   3  A511 + P70 + P100                                                            8  +        0
+   4  A511 + P70 + P100 + vB_Lino_VEfB7                                            8  +        0
+   5  A511 + P70 + P100 + vB_Lino_VEfB7 + LP-110                                   8  +        0

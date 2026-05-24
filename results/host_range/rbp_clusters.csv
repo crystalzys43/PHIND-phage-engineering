@@ -1,0 +1,39 @@
+accession,phage_name,cds_id,phrog_category,phrog_annot,start,end,length_aa,rbp_cluster
+DQ003638.2,"Listeria phage A511, complete genome",VCKEDUZA_CDS_0043,tail,tail fiber protein,16447,16250,65,2
+DQ003638.2,"Listeria phage A511, complete genome",VCKEDUZA_CDS_0106,tail,tail fiber protein,47179,48060,293,1
+DQ003638.2,"Listeria phage A511, complete genome",VCKEDUZA_CDS_0111,tail,tail sheath,50689,52377,562,0
+DQ003638.2,"Listeria phage A511, complete genome",VCKEDUZA_CDS_0113,tail,tail assembly chaperone,53019,53462,147,1
+DQ003638.2,"Listeria phage A511, complete genome",VCKEDUZA_CDS_0115,tail,tail associated lysin,54266,57913,1215,7
+DQ003638.2,"Listeria phage A511, complete genome",VCKEDUZA_CDS_0116,tail,tail protein with lysin activity,57959,60346,795,5
+DQ003638.2,"Listeria phage A511, complete genome",VCKEDUZA_CDS_0120,tail,baseplate protein,63172,63882,236,1
+DQ003638.2,"Listeria phage A511, complete genome",VCKEDUZA_CDS_0121,tail,baseplate wedge subunit,64019,64942,307,3
+DQ004855.1,"Listeria phage P100, complete genome",CWHHGHNF_CDS_0022,tail,tail fiber protein,13620,14501,293,1
+DQ004855.1,"Listeria phage P100, complete genome",CWHHGHNF_CDS_0027,tail,tail sheath,17130,18818,562,0
+DQ004855.1,"Listeria phage P100, complete genome",CWHHGHNF_CDS_0029,tail,tail assembly chaperone,19459,19902,147,1
+DQ004855.1,"Listeria phage P100, complete genome",CWHHGHNF_CDS_0031,tail,tail associated lysin,20700,24347,1215,7
+DQ004855.1,"Listeria phage P100, complete genome",CWHHGHNF_CDS_0032,tail,tail protein with lysin activity,24393,26780,795,5
+DQ004855.1,"Listeria phage P100, complete genome",CWHHGHNF_CDS_0036,tail,baseplate protein,29606,30316,236,1
+DQ004855.1,"Listeria phage P100, complete genome",CWHHGHNF_CDS_0037,tail,baseplate wedge subunit,30453,31376,307,3
+DQ004855.1,"Listeria phage P100, complete genome",CWHHGHNF_CDS_0171,tail,tail fiber protein,114282,114085,65,2
+JX126919.1,"Listeria phage LP-110, complete genome",ENXRXMMB_CDS_0070,tail,minor tail protein,23353,25251,632,0
+JX126919.1,"Listeria phage LP-110, complete genome",ENXRXMMB_CDS_0082,connector,head-tail adaptor,35058,35417,119,1
+JX126919.1,"Listeria phage LP-110, complete genome",ENXRXMMB_CDS_0085,connector,tail terminator,36194,36613,139,4
+JX126919.1,"Listeria phage LP-110, complete genome",ENXRXMMB_CDS_0086,tail,major tail protein,36637,37347,236,0
+JX126919.1,"Listeria phage LP-110, complete genome",ENXRXMMB_CDS_0089,tail,tail length tape measure protein,38541,41453,970,6
+JX126919.1,"Listeria phage LP-110, complete genome",ENXRXMMB_CDS_0090,tail,distal tail protein Dit,41457,43547,696,0
+JX126919.1,"Listeria phage LP-110, complete genome",ENXRXMMB_CDS_0091,tail,tail protein,43559,46348,929,0
+JX442241.1,"Listeria phage P70, complete genome",PIVNVFUZ_CDS_0002,tail,minor tail protein,507,2405,632,0
+JX442241.1,"Listeria phage P70, complete genome",PIVNVFUZ_CDS_0014,connector,head-tail adaptor,12213,12572,119,1
+JX442241.1,"Listeria phage P70, complete genome",PIVNVFUZ_CDS_0017,connector,tail terminator,13349,13768,139,4
+JX442241.1,"Listeria phage P70, complete genome",PIVNVFUZ_CDS_0018,tail,major tail protein,13792,14502,236,0
+JX442241.1,"Listeria phage P70, complete genome",PIVNVFUZ_CDS_0022,tail,tail length tape measure protein,15697,18609,970,6
+JX442241.1,"Listeria phage P70, complete genome",PIVNVFUZ_CDS_0023,tail,distal tail protein Dit,18614,20704,696,0
+JX442241.1,"Listeria phage P70, complete genome",PIVNVFUZ_CDS_0024,tail,tail protein,20716,23502,928,0
+MN939539.1,"Listeria phage vB_Lino_VEfB7, complete genome",TRPTMRUT_CDS_0055,tail,tail fiber protein,21608,21411,65,2
+MN939539.1,"Listeria phage vB_Lino_VEfB7, complete genome",TRPTMRUT_CDS_0116,tail,tail fiber protein,52345,53226,293,1
+MN939539.1,"Listeria phage vB_Lino_VEfB7, complete genome",TRPTMRUT_CDS_0121,tail,tail sheath,55855,57543,562,0
+MN939539.1,"Listeria phage vB_Lino_VEfB7, complete genome",TRPTMRUT_CDS_0123,tail,tail assembly chaperone,58185,58628,147,1
+MN939539.1,"Listeria phage vB_Lino_VEfB7, complete genome",TRPTMRUT_CDS_0125,tail,tail associated lysin,59432,63079,1215,7
+MN939539.1,"Listeria phage vB_Lino_VEfB7, complete genome",TRPTMRUT_CDS_0126,tail,tail protein with lysin activity,63125,65512,795,5
+MN939539.1,"Listeria phage vB_Lino_VEfB7, complete genome",TRPTMRUT_CDS_0130,tail,baseplate protein,68338,69048,236,1
+MN939539.1,"Listeria phage vB_Lino_VEfB7, complete genome",TRPTMRUT_CDS_0131,tail,baseplate wedge subunit,69062,70108,348,3
