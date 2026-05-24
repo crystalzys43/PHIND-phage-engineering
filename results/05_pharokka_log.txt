@@ -1,0 +1,57 @@
+Phase 2 Step 2: Pharokka re-annotation summary
+=============================================
+  ▸ DQ003638.2 (Listeria phage A511, complete genome)
+     CDS predicted: 230
+     PHROG categories:
+       unknown function                                    165
+       DNA, RNA and nucleotide metabolism                  22
+       head and packaging                                  15
+       other                                               10
+       tail                                                8
+       moron, auxiliary metabolic gene and host takeover   6
+       transcription regulation                            2
+       lysis                                               2
+  ▸ DQ004855.1 (Listeria phage P100, complete genome)
+     CDS predicted: 213
+     PHROG categories:
+       unknown function                                    149
+       DNA, RNA and nucleotide metabolism                  22
+       head and packaging                                  15
+       other                                               9
+       tail                                                8
+       moron, auxiliary metabolic gene and host takeover   6
+       lysis                                               2
+       transcription regulation                            2
+  ▸ JX442241.1 (Listeria phage P70, complete genome)
+     CDS predicted: 137
+     PHROG categories:
+       unknown function                                    102
+       DNA, RNA and nucleotide metabolism                  16
+       head and packaging                                  7
+       tail                                                5
+       moron, auxiliary metabolic gene and host takeover   2
+       connector                                           2
+       other                                               2
+       lysis                                               1
+  ▸ MN939539.1 (Listeria phage vB_Lino_VEfB7, complete genome)
+     CDS predicted: 209
+     PHROG categories:
+       unknown function                                    140
+       DNA, RNA and nucleotide metabolism                  25
+       head and packaging                                  15
+       other                                               10
+       tail                                                8
+       moron, auxiliary metabolic gene and host takeover   7
+       transcription regulation                            2
+       lysis                                               2
+  ▸ JX126919.1 (Listeria phage LP-110, complete genome)
+     CDS predicted: 124
+     PHROG categories:
+       unknown function                                    91
+       DNA, RNA and nucleotide metabolism                  14
+       head and packaging                                  7
+       tail                                                5
+       moron, auxiliary metabolic gene and host takeover   2
+       connector                                           2
+       other                                               2
+       lysis                                               1

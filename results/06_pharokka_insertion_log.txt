@@ -1,0 +1,39 @@
+Phase 2 Step 3: Pharokka-based insertion scoring
+================================================
+Before/after comparison (top site only):
+
+▸ DQ003638.2 — Listeria phage A511, complete genome
+     BEFORE (Phase 2.1):  score=55.0   flanks: other | other
+     AFTER  (Pharokka):   score=80.0   flanks: permissive | permissive
+        left  (unknown function): hypothetical protein
+        right (unknown function): hypothetical protein
+        rationale: tight gap (910 bp) · neither flank essential · near lysis cluster (1061 bp) · both flanks permissive
+
+▸ DQ004855.1 — Listeria phage P100, complete genome
+     BEFORE (Phase 2.1):  score=55.0   flanks: other | other
+     AFTER  (Pharokka):   score=80.0   flanks: permissive | permissive
+        left  (unknown function): hypothetical protein
+        right (unknown function): hypothetical protein
+        rationale: tight gap (910 bp) · neither flank essential · near lysis cluster (1061 bp) · both flanks permissive
+
+▸ JX442241.1 — Listeria phage P70, complete genome
+     BEFORE (Phase 2.1):  score=60.0   flanks: permissive | permissive
+     AFTER  (Pharokka):   score=70.0   flanks: permissive | permissive
+        left  (unknown function): hypothetical protein
+        right (unknown function): hypothetical protein
+        rationale: comfortable gap (1168 bp ≥ 1000) · neither flank essential · far from lysis cluster · both flanks permissive
+
+▸ MN939539.1 — Listeria phage vB_Lino_VEfB7, complete genome
+     BEFORE (Phase 2.1):  score=73.0   flanks: permissive | lysis
+     AFTER  (Pharokka):   score=80.0   flanks: permissive | permissive
+        left  (unknown function): hypothetical protein
+        right (unknown function): hypothetical protein
+        rationale: tight gap (911 bp) · neither flank essential · near lysis cluster (1061 bp) · both flanks permissive
+
+▸ JX126919.1 — Listeria phage LP-110, complete genome
+     BEFORE (Phase 2.1):  score=80.0   flanks: permissive | permissive
+     AFTER  (Pharokka):   score=70.0   flanks: permissive | permissive
+        left  (unknown function): hypothetical protein
+        right (unknown function): hypothetical protein
+        rationale: comfortable gap (1018 bp ≥ 1000) · neither flank essential · far from lysis cluster · both flanks permissive
+

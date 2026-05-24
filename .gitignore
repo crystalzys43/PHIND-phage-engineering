@@ -30,3 +30,6 @@ Thumbs.db
 
 # Results — keep CSV summaries, ignore large intermediates
 results/intermediate/
+
+# Pharokka raw outputs (keep only the curated annotation CSV at results/pharokka_annotations.csv)
+results/pharokka/

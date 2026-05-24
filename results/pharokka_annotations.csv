@@ -1,0 +1,914 @@
+accession,cds_id,start,end,strand,phrog_id,phrog_category,phrog_annot,method
+DQ003638.2,,1,123,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,264,551,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,717,971,,14554,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,968,1228,,9566,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,1252,1437,,18466,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,1455,1628,,10584,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,1647,1754,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,1785,2045,,9527,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,2059,2346,,9852,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,2499,2771,,9612,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,2904,3032,,9360,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,3103,3249,,27358,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,3335,3745,,9107,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,3813,3920,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,3913,4143,,7175,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,4150,4263,,12028,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,4394,4224,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,4442,4942,,13577,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,4945,5451,,12804,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,5461,6645,,11450,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,6798,7223,,7738,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,7241,7531,,6964,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,7528,7713,,6159,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,7713,8060,,3392,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,8092,8373,,9728,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,8452,8784,,9112,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,8884,9180,,11576,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,9245,9424,,30920,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,9447,9809,,10101,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,9809,10165,,10214,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,10982,10209,,246,other,NinI-like serine-threonine phosphatase,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,11315,10995,,9499,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,11478,11308,,9952,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,12049,11522,,121,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,12327,12046,,9517,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,12611,12387,,14763,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,13154,12612,,9379,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,13378,13151,,9937,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,14631,13381,,10246,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,15055,14642,,10136,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,15609,15121,,10442,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,16247,15615,,9902,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,16447,16250,,12982,tail,tail fiber protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,16856,16437,,1934,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,17038,16853,,22601,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,17646,17029,,547,other,phosphoesterase,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,17861,17643,,9695,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,18255,17878,,1238,"moron, auxiliary metabolic gene and host takeover",phosphoheptose isomerase,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,18614,18258,,9618,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,19632,18691,,548,"DNA, RNA and nucleotide metabolism",RNA ligase,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,20182,19646,,1460,"DNA, RNA and nucleotide metabolism",tRNA amidotransferase,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,20370,20179,,9898,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,20874,20371,,1017,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,21145,20876,,9717,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,22403,21192,,1075,"DNA, RNA and nucleotide metabolism",tRNA splicing ligase,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,22721,22509,,9650,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,23136,22705,,990,other,metal-dependent phosphohydrolase,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,23374,23150,,14899,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,23630,23388,,8,transcription regulation,transcriptional regulator,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,25253,23733,,850,"DNA, RNA and nucleotide metabolism",RNA-binding protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,25283,25375,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,25588,25731,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,26142,25924,,6885,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,26341,26502,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,26721,26813,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,26807,26926,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,26919,27047,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,27621,27214,,9386,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,27844,27647,,9389,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,28216,28094,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,28720,28625,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,28711,28830,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,28935,29030,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,30254,29979,,1048,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,30809,30378,,9075,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,31098,31187,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,31591,31502,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,31718,31596,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,31849,31757,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,31934,32026,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,32402,32166,,1215,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,32793,32452,,937,other,hemolysin,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,33162,32818,,1481,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,33447,33178,,15252,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,33563,33949,,3395,"moron, auxiliary metabolic gene and host takeover",membrane protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,33933,34205,,1321,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,34211,34627,,1063,head and packaging,terminase small subunit,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,34627,34908,,9315,head and packaging,terminase large subunit,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,34957,34868,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,35294,35136,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,35258,36811,,675,head and packaging,terminase large subunit,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,36880,37719,,1917,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,37724,37921,,26070,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,37911,38549,,1116,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,38539,38919,,1991,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,38983,40008,,5182,lysis,endolysin,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,40205,40101,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,40181,40909,,6631,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,41011,41331,,9678,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,41414,41683,,1108,head and packaging,portal protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,41688,43343,,15361,head and packaging,portal protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,43466,44236,,1028,head and packaging,head maturation protease,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,44229,45122,,1133,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,45292,46695,,752,head and packaging,major head protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,46777,47172,,9462,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,47179,48060,,772,tail,tail fiber protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,48078,48896,,1004,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,48956,49513,,1127,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,49526,50365,,1000,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,50365,50685,,9471,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,50689,52377,,279,tail,tail sheath,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,52445,52867,,985,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,53019,53462,,1038,tail,tail assembly chaperone,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,53530,54123,,1316,"DNA, RNA and nucleotide metabolism",RNA polymerase beta subunit,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,54266,57913,,1047,tail,tail associated lysin,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,57959,60346,,1015,tail,tail protein with lysin activity,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,60364,61896,,7994,other,glycerophosphoryl diester phosphodiesterase,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,61934,62647,,1011,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,62652,63185,,1073,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,63172,63882,,975,tail,baseplate protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,64019,64942,,6,tail,baseplate wedge subunit,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,64978,68907,,2386,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,69024,69545,,1394,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,69679,73017,,877,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,73063,73284,,1074,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,73287,74579,,9794,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,74611,75021,,9920,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,75018,75155,,134,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,75256,77001,,16,"DNA, RNA and nucleotide metabolism",DNA helicase,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,77016,78656,,1098,"DNA, RNA and nucleotide metabolism",HTH DNA binding protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,78674,80137,,19,"DNA, RNA and nucleotide metabolism",DnaB-like replicative helicase,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,80152,81204,,100,"DNA, RNA and nucleotide metabolism",SbcD-like subunit of palindrome specific endonuclease,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,81299,83182,,77,"DNA, RNA and nucleotide metabolism",SbcC-like subunit of palindrome specific endonuclease,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,83202,83792,,1070,"moron, auxiliary metabolic gene and host takeover",anti-sigma factor,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,83792,84853,,47,"DNA, RNA and nucleotide metabolism",DNA primase,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,84948,85547,,135,"DNA, RNA and nucleotide metabolism",dUTPase,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,85544,85768,,10262,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,85765,86088,,7516,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,86081,86503,,1095,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,86506,87126,,244,"DNA, RNA and nucleotide metabolism",RusA-like Holliday junction resolvase,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,87223,88590,,3987,"DNA, RNA and nucleotide metabolism",ribonucleotide reductase large subunit,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,88654,88743,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,88801,89832,,3844,"moron, auxiliary metabolic gene and host takeover",NrdA-like aerobic NDP reductase large subunit,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,89967,89836,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,90038,91069,,86,"DNA, RNA and nucleotide metabolism",ribonucleoside diphosphate reductase small subunit,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,91066,91518,,883,"moron, auxiliary metabolic gene and host takeover",flavodoxin,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,91521,91817,,9820,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,91841,92152,,22,"DNA, RNA and nucleotide metabolism",thioredoxin domain,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,92235,92534,,9691,"DNA, RNA and nucleotide metabolism",thioredoxin domain,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,92537,92674,,9795,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,92677,93864,,12487,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,93873,94775,,619,other,ribose-phosphate pyrophosphokinase,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,94786,96570,,448,other,nicotinamide phosphoribosyl transferase,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,96657,99125,,9253,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,99219,100007,,1054,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,100000,100314,,379,"DNA, RNA and nucleotide metabolism",DNA binding protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,100397,101233,,4008,"DNA, RNA and nucleotide metabolism",DNA polymerase,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,101277,101366,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,101508,103676,,17,"DNA, RNA and nucleotide metabolism",DNA polymerase,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,103771,104247,,1069,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,104285,105544,,1867,"DNA, RNA and nucleotide metabolism",single strand DNA binding protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,105614,106858,,97,other,UvsX-like recombinase,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,106920,107297,,1089,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,107297,107935,,1025,transcription regulation,RNA polymerase sigma factor,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,107994,108359,,263,lysis,holin,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,108377,109084,,215,head and packaging,structural protein with Ig domain,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,109192,109578,,9872,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,109575,110504,,1850,other,exopolyphosphatase,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,110563,111834,,284,"DNA, RNA and nucleotide metabolism",exonuclease,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,111854,112237,,7143,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,112245,112790,,1080,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,112836,113042,,15858,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,113093,113800,,984,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,113811,114293,,2356,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,114353,115237,,1113,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,115398,115763,,9749,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,115769,116215,,6360,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,116316,117020,,9512,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,117025,118041,,249,"moron, auxiliary metabolic gene and host takeover",porphyrin biosynthesis,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,118028,118873,,7005,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,118935,119390,,7350,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,119396,119974,,7350,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,120013,120585,,10641,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,120582,121160,,10568,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,121153,121485,,9358,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,121612,121701,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,121771,122499,,1007,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,122514,122981,,1104,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,123096,124166,,9186,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,124214,124783,,9719,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,124786,125319,,9011,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,125334,126092,,9671,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,126105,126395,,10429,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,126641,126739,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,127001,126813,,16836,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,127215,127018,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,127456,127328,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,127419,127778,,3543,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,127863,128012,,10369,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,128121,128384,,10046,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,128386,128487,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,128468,128743,,4655,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,128819,129271,,11937,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,129273,129368,,28207,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,129426,130079,,1384,other,Mom-like DNA modification protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,130096,130323,,13948,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,130397,130594,,14860,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,130613,130819,,14056,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,130823,131098,,19585,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,131225,131527,,19346,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,131599,131841,,22337,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,131924,132067,,11464,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,132270,132611,,4264,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,132786,133007,,5149,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,133013,133456,,7822,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,133589,134131,,17618,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,134156,134434,,10501,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,134508,134386,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,134828,134703,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,134949,134854,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,135116,134994,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,135211,135465,,14554,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,135462,135722,,9566,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,135746,135931,,18466,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,135949,136122,,10584,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,136141,136248,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,136279,136539,,9527,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,136553,136840,,9852,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,136993,137265,,9612,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ003638.2,,137398,137526,,9360,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,52,438,,3395,"moron, auxiliary metabolic gene and host takeover",membrane protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,422,694,,1321,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,700,1116,,1063,head and packaging,terminase small subunit,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,1116,1397,,9315,head and packaging,terminase large subunit,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,1446,1357,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,1783,1625,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,1747,3300,,675,head and packaging,terminase large subunit,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,3369,4208,,1917,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,4213,4410,,26070,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,4400,5038,,1116,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,5028,5408,,1991,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,5472,6497,,5182,lysis,endolysin,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,6694,6590,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,6670,7398,,6631,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,7500,7820,,9678,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,7903,8172,,1108,head and packaging,portal protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,8177,9832,,15361,head and packaging,portal protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,9955,10725,,1028,head and packaging,head maturation protease,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,10718,11620,,1133,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,11790,13196,,752,head and packaging,major head protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,13278,13613,,9462,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,13620,14501,,772,tail,tail fiber protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,14519,15337,,1004,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,15397,15954,,1127,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,15967,16806,,1000,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,16806,17126,,9471,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,17130,18818,,279,tail,tail sheath,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,18886,19308,,985,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,19459,19902,,1038,tail,tail assembly chaperone,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,19958,20557,,1316,"DNA, RNA and nucleotide metabolism",RNA polymerase beta subunit,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,20700,24347,,1047,tail,tail associated lysin,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,24393,26780,,1015,tail,tail protein with lysin activity,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,26798,28330,,7994,other,glycerophosphoryl diester phosphodiesterase,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,28368,29081,,1011,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,29086,29619,,1073,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,29606,30316,,975,tail,baseplate protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,30453,31376,,6,tail,baseplate wedge subunit,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,31412,35341,,2386,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,35458,35979,,1394,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,36113,39451,,877,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,39497,39718,,1074,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,39721,41013,,9794,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,41045,41455,,9920,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,41452,41589,,134,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,41690,43435,,16,"DNA, RNA and nucleotide metabolism",DNA helicase,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,43450,45090,,1098,"DNA, RNA and nucleotide metabolism",HTH DNA binding protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,45108,46571,,19,"DNA, RNA and nucleotide metabolism",DnaB-like replicative helicase,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,46586,47638,,100,"DNA, RNA and nucleotide metabolism",SbcD-like subunit of palindrome specific endonuclease,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,47733,48113,,21388,"DNA, RNA and nucleotide metabolism",exonuclease,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,48184,49617,,77,"DNA, RNA and nucleotide metabolism",SbcC-like subunit of palindrome specific endonuclease,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,49637,50227,,1070,"moron, auxiliary metabolic gene and host takeover",anti-sigma factor,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,50227,51288,,47,"DNA, RNA and nucleotide metabolism",DNA primase,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,51383,51982,,135,"DNA, RNA and nucleotide metabolism",dUTPase,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,51979,52203,,10262,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,52200,52523,,7516,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,52516,52938,,1095,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,52941,53561,,244,"DNA, RNA and nucleotide metabolism",RusA-like Holliday junction resolvase,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,53660,55027,,3987,"DNA, RNA and nucleotide metabolism",ribonucleotide reductase large subunit,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,55238,56269,,3844,"moron, auxiliary metabolic gene and host takeover",NrdA-like aerobic NDP reductase large subunit,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,56332,56424,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,56445,57476,,86,"DNA, RNA and nucleotide metabolism",ribonucleoside diphosphate reductase small subunit,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,57473,57925,,883,"moron, auxiliary metabolic gene and host takeover",flavodoxin,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,57928,58224,,9820,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,58248,58940,,9691,"DNA, RNA and nucleotide metabolism",thioredoxin domain,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,58943,59080,,9795,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,59083,60270,,12487,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,60279,61181,,619,other,ribose-phosphate pyrophosphokinase,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,61192,62985,,448,other,nicotinamide phosphoribosyl transferase,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,63072,65540,,9253,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,65634,66422,,1054,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,66415,66729,,379,"DNA, RNA and nucleotide metabolism",DNA binding protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,66812,67648,,4008,"DNA, RNA and nucleotide metabolism",DNA polymerase,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,67692,67781,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,67923,70091,,17,"DNA, RNA and nucleotide metabolism",DNA polymerase,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,70186,70662,,1069,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,70700,71959,,1867,"DNA, RNA and nucleotide metabolism",single strand DNA binding protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,72029,73273,,97,other,UvsX-like recombinase,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,73335,73712,,1089,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,73712,74350,,1025,transcription regulation,RNA polymerase sigma factor,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,74409,74570,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,74579,74773,,263,lysis,holin,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,74791,75498,,215,head and packaging,structural protein with Ig domain,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,75606,75992,,9872,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,75989,76918,,1850,other,exopolyphosphatase,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,76977,78248,,284,"DNA, RNA and nucleotide metabolism",exonuclease,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,78268,78651,,7143,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,78659,79204,,1080,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,79250,79456,,15858,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,79507,80214,,984,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,80225,80707,,2356,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,80767,81651,,1113,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,81812,82177,,9749,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,82183,82629,,6360,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,82604,83434,,9512,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,83439,84455,,249,"moron, auxiliary metabolic gene and host takeover",porphyrin biosynthesis,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,84442,85287,,7005,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,85349,85816,,7350,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,85849,86421,,10641,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,86418,86996,,10568,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,86989,87321,,9358,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,87448,87537,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,87607,88335,,1007,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,88350,88817,,1104,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,88932,89975,,9186,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,90023,90592,,9719,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,90595,91128,,9011,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,91143,91901,,9671,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,91914,92204,,10429,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,92473,92375,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,92914,92633,,16836,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,93033,92905,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,93131,93021,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,93304,93149,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,93338,93427,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,93457,93597,,3543,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,93683,93832,,10369,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,93942,94724,,12014,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,94743,94832,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,94891,95100,,15212,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,95128,95238,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,95213,95476,,10046,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,95478,95579,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,95641,95835,,4655,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,95948,96340,,7822,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,96482,96766,,17618,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,97081,96989,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,97176,97036,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,97353,97607,,14554,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,97604,97864,,9566,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,97888,98073,,18466,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,98092,98265,,10584,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,98422,98682,,9527,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,98696,98983,,9852,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,99137,99409,,9612,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,99426,99524,,1933,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,99726,99854,,9360,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,99925,100071,,27358,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,100157,100561,,9107,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,100564,100782,,9107,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,100784,101005,,7175,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,101012,101248,,1150,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,101245,101511,,12028,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,101504,101995,,13577,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,101998,102504,,12804,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,102515,103699,,11450,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,103862,104287,,7738,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,104305,104595,,6964,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,104592,104777,,6159,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,104777,105124,,3392,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,105156,105416,,9728,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,105496,105828,,9112,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,105928,106224,,11576,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,106289,106468,,30920,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,106491,106853,,10101,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,106853,107209,,10214,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,108026,107253,,246,other,NinI-like serine-threonine phosphatase,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,108359,108039,,9499,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,108660,108352,,9952,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,109183,108674,,7296,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,109396,109205,,6414,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,109686,109402,,10844,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,109879,109760,,9730,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,110157,109876,,9517,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,110441,110217,,14763,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,110984,110442,,9379,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,111208,110981,,9937,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,112464,111211,,10246,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,112891,112466,,10136,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,113444,112956,,10442,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,114082,113450,,9902,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,114282,114085,,12982,tail,tail fiber protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,114784,114272,,1934,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,115337,114864,,547,other,phosphoesterase,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,115696,115478,,9695,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,116090,115713,,1238,"moron, auxiliary metabolic gene and host takeover",phosphoheptose isomerase,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,116449,116093,,9618,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,117468,116527,,548,"DNA, RNA and nucleotide metabolism",RNA ligase,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,118018,117482,,1460,"DNA, RNA and nucleotide metabolism",tRNA amidotransferase,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,118206,118015,,9898,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,118710,118207,,1017,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,118981,118712,,9717,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,120239,119028,,1075,"DNA, RNA and nucleotide metabolism",tRNA splicing ligase,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,120547,120344,,9650,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,120971,120540,,990,other,metal-dependent phosphohydrolase,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,121209,120985,,14899,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,121465,121223,,8,transcription regulation,transcriptional regulator,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,123090,121570,,850,"DNA, RNA and nucleotide metabolism",RNA-binding protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,123023,123118,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,123326,123472,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,123530,123631,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,124019,123801,,6885,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,124217,124378,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,124502,124386,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,124597,124689,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,124683,124802,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,124795,124923,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,125497,125090,,9386,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,125720,125523,,9389,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,126092,125970,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,126596,126501,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,126587,126706,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,126811,126906,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,128130,127855,,1048,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,128586,128254,,9075,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,128974,129063,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,129467,129378,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,129594,129472,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,129725,129633,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,129810,129902,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,130275,130039,,1215,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,130666,130325,,937,other,hemolysin,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,131035,130691,,1481,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+DQ004855.1,,131320,131051,,15252,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,4,504,,51,head and packaging,terminase small subunit,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,507,2405,,3639,tail,minor tail protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,2418,3857,,18602,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,3863,4219,,1009,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,4216,4500,,297,lysis,holin,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,4500,5447,,5115,"moron, auxiliary metabolic gene and host takeover",ferredoxin,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,5516,6859,,3717,head and packaging,terminase large subunit,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,6892,8541,,64,head and packaging,portal protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,8548,9333,,8089,head and packaging,head morphogenesis,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,9403,10044,,172,head and packaging,head scaffolding protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,10075,10980,,544,head and packaging,major head protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,11046,11243,,17541,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,11257,12135,,18435,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,12213,12572,,132,connector,head-tail adaptor,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,12569,12985,,16721,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,12921,13349,,17081,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,13349,13768,,176,connector,tail terminator,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,13792,14502,,41,tail,major tail protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,14603,14890,,18667,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,14953,15555,,17465,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,15564,15728,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,15697,18609,,1533,tail,tail length tape measure protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,18614,20704,,202,tail,distal tail protein Dit,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,20716,23502,,17797,tail,tail protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,23712,23548,,7571,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,24112,23741,,17281,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,24302,24102,,18550,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,25022,24315,,6883,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,25148,25059,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,25787,25269,,17927,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,26437,25784,,17662,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,26469,26681,,32383,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,26827,26973,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,27253,27026,,18039,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,27570,27412,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,27553,27924,,59,"DNA, RNA and nucleotide metabolism",HNH endonuclease,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,28126,28509,,6154,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,28573,29310,,50,"DNA, RNA and nucleotide metabolism",DnaC-like helicase loader,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,29311,30639,,19,"DNA, RNA and nucleotide metabolism",DnaB-like replicative helicase,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,30716,31681,,47,"DNA, RNA and nucleotide metabolism",DNA primase,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,31675,32130,,17905,other,methyltransferase,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,32111,33598,,12241,"DNA, RNA and nucleotide metabolism",DNA polymerase,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,33617,33718,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,33715,34218,,59,"DNA, RNA and nucleotide metabolism",HNH endonuclease,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,34193,34405,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,34454,34588,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,34570,35166,,5995,"DNA, RNA and nucleotide metabolism",DNA polymerase,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,35222,35833,,59,"DNA, RNA and nucleotide metabolism",HNH endonuclease,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,35864,36859,,1706,"DNA, RNA and nucleotide metabolism",CRISPR/Cas system associated,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,36856,37368,,159,"DNA, RNA and nucleotide metabolism",RuvC-like Holliday junction resolvase,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,37370,37918,,139,other,deoxynucleoside monophosphate kinase,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,37896,38261,,517,"DNA, RNA and nucleotide metabolism",HTH DNA binding protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,38221,38631,,18507,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,38724,39416,,18628,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,39432,39656,,17749,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,39613,39885,,19802,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,39960,40238,,17709,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,40260,41282,,249,"moron, auxiliary metabolic gene and host takeover",porphyrin biosynthesis,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,41301,42212,,7005,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,42213,42479,,18040,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,42472,43152,,17535,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,43156,43389,,18570,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,43430,43591,,17097,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,43557,43658,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,43648,44436,,18431,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,44408,44650,,21823,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,44731,45210,,17084,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,45200,45634,,17542,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,45627,46088,,17753,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,46088,46354,,22,"DNA, RNA and nucleotide metabolism",thioredoxin domain,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,46338,46676,,18081,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,46806,46988,,18681,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,46995,47186,,6414,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,47208,47717,,7296,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,47732,48277,,7296,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,48274,48579,,17786,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,49094,48576,,59,"DNA, RNA and nucleotide metabolism",HNH endonuclease,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,49398,49216,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,49533,49625,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,49636,49776,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,49913,50146,,18584,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,50143,50232,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,50249,50581,,17663,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,50689,50964,,8573,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,50980,51273,,16753,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,51273,51473,,17278,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,51485,51832,,4264,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,51904,52350,,7822,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,52361,52648,,18105,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,52707,53543,,16892,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,53595,53687,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,53684,53911,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,53908,54267,,11080,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,54365,54664,,18690,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,54649,54756,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,54924,55040,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,55065,55160,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,55749,55495,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,56023,55829,,17121,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,56232,56047,,16767,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,56779,56222,,16663,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,56937,56794,,17830,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,57320,56934,,26006,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,57952,57320,,121,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,58200,58036,,19990,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,58366,58211,,23978,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,58620,58363,,1666,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,58898,58620,,18615,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,59083,58907,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,59306,59076,,6406,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,59475,59299,,21953,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,59796,59485,,959,"DNA, RNA and nucleotide metabolism",HNH endonuclease,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,60156,59860,,2316,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,60422,60177,,17911,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,60514,60404,,38652,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,60716,60516,,21092,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,60916,60719,,20263,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,61277,60918,,28605,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,62200,61319,,559,"DNA, RNA and nucleotide metabolism",HNH endonuclease,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,62424,62260,,27701,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,62849,62454,,559,"DNA, RNA and nucleotide metabolism",HNH endonuclease,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,63098,62898,,18055,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,63350,63108,,18191,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,63572,63363,,18373,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,63789,63586,,17919,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,64039,63776,,20334,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,64343,64086,,6406,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,64614,64333,,6406,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,64816,64571,,6406,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,65037,64813,,10526,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,65282,65049,,10526,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,65530,65279,,10628,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,65775,65542,,17836,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,66024,65788,,10628,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,66457,66014,,17491,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,66852,66466,,17111,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX442241.1,,67169,67056,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,700,419,,16836,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,822,691,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,1041,934,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,1023,1382,,3543,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,1467,1616,,10369,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,1704,2156,,11937,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,2158,2253,,28207,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,2311,2589,,1384,other,Mom-like DNA modification protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,2606,3130,,14286,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,3283,3161,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,3312,3656,,4264,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,3832,4053,,5149,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,4059,4508,,7822,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,4619,4897,,10501,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,5237,5410,,10584,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,5538,5828,,9527,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,5842,6129,,9852,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,6283,6555,,9612,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,6721,6849,,9360,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,6920,7066,,27358,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,7269,7538,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,7651,8181,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,8225,8575,,9107,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,8643,8750,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,8752,8973,,7175,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,8970,9089,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,9086,9391,,12028,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,9339,9845,,12804,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,9856,11016,,11450,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,11169,11594,,7738,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,11612,11902,,6964,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,11899,12084,,6159,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,12084,12431,,3392,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,12463,12744,,9728,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,12823,13155,,9112,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,13255,13551,,11576,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,13616,13795,,30920,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,13818,14180,,10101,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,14180,14536,,10214,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,15353,14580,,246,other,NinI-like serine-threonine phosphatase,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,15686,15366,,9499,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,15988,15683,,9952,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,16511,16002,,7296,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,16724,16533,,6414,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,17014,16730,,10844,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,17207,17088,,9730,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,17485,17204,,9517,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,17769,17545,,14763,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,18312,17770,,9379,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,18536,18309,,9937,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,19792,18539,,10246,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,20216,19794,,10136,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,20770,20282,,10442,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,21408,20776,,9902,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,21608,21411,,12982,tail,tail fiber protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,22017,21598,,1934,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,22199,22014,,22601,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,22663,22190,,547,other,phosphoesterase,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,23022,22804,,9695,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,23416,23039,,1238,"moron, auxiliary metabolic gene and host takeover",phosphoheptose isomerase,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,23775,23419,,9618,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,24796,23855,,548,"DNA, RNA and nucleotide metabolism",RNA ligase,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,25346,24810,,1460,"DNA, RNA and nucleotide metabolism",tRNA amidotransferase,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,25534,25343,,9898,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,26038,25535,,1017,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,26309,26040,,9717,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,27567,26356,,1075,"DNA, RNA and nucleotide metabolism",tRNA splicing ligase,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,27885,27673,,9650,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,28300,27869,,990,other,metal-dependent phosphohydrolase,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,28538,28314,,14899,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,28794,28552,,8,transcription regulation,transcriptional regulator,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,30415,28895,,850,"DNA, RNA and nucleotide metabolism",RNA-binding protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,30990,30799,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,31349,31131,,6885,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,31547,31708,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,31832,31716,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,31927,32019,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,32013,32132,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,32125,32253,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,32827,32420,,9386,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,33050,32853,,9389,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,33422,33300,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,34014,33643,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,34142,34237,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,35461,35186,,1048,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,36016,35585,,9075,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,36305,36394,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,36922,36800,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,37053,36961,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,37141,37233,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,37606,37370,,1215,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,37997,37656,,937,other,hemolysin,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,38366,38022,,1481,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,38651,38382,,15252,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,38767,39153,,3395,"moron, auxiliary metabolic gene and host takeover",membrane protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,39137,39409,,1321,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,39415,39831,,1063,head and packaging,terminase small subunit,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,39831,40112,,9315,head and packaging,terminase large subunit,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,40161,40072,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,40498,40352,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,40462,42015,,675,head and packaging,terminase large subunit,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,42084,42923,,1917,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,42928,43125,,26070,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,43115,43753,,1116,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,43743,44123,,1991,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,44187,45212,,5182,lysis,endolysin,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,45409,45305,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,45385,46113,,6631,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,46216,46536,,9678,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,46619,46888,,1108,head and packaging,portal protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,46893,48548,,15361,head and packaging,portal protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,48671,49441,,1028,head and packaging,head maturation protease,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,49434,50330,,1133,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,50500,51906,,752,head and packaging,major head protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,51988,52338,,9462,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,52345,53226,,772,tail,tail fiber protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,53244,54062,,1004,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,54113,54679,,1127,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,54692,55531,,1000,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,55531,55851,,9471,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,55855,57543,,279,tail,tail sheath,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,57611,58033,,985,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,58185,58628,,1038,tail,tail assembly chaperone,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,58684,59289,,1316,"DNA, RNA and nucleotide metabolism",RNA polymerase beta subunit,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,59432,63079,,1047,tail,tail associated lysin,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,63125,65512,,1015,tail,tail protein with lysin activity,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,65530,67062,,7994,other,glycerophosphoryl diester phosphodiesterase,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,67100,67813,,1011,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,67818,68351,,1073,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,68338,69048,,975,tail,baseplate protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,69062,70108,,6,tail,baseplate wedge subunit,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,70144,74073,,2386,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,74190,74711,,1394,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,74845,78183,,877,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,78229,78450,,1074,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,78453,79745,,9794,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,79753,80187,,9920,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,80184,80321,,134,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,80422,83439,,16,"DNA, RNA and nucleotide metabolism",DNA helicase,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,83454,85094,,1098,"DNA, RNA and nucleotide metabolism",HTH DNA binding protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,85112,86575,,19,"DNA, RNA and nucleotide metabolism",DnaB-like replicative helicase,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,86590,87642,,100,"DNA, RNA and nucleotide metabolism",SbcD-like subunit of palindrome specific endonuclease,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,87737,89620,,77,"DNA, RNA and nucleotide metabolism",SbcC-like subunit of palindrome specific endonuclease,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,89640,90230,,1070,"moron, auxiliary metabolic gene and host takeover",anti-sigma factor,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,90230,91291,,47,"DNA, RNA and nucleotide metabolism",DNA primase,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,91386,91985,,135,"DNA, RNA and nucleotide metabolism",dUTPase,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,91982,92206,,10262,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,92203,92526,,7516,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,92519,92941,,1095,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,92944,93564,,244,"DNA, RNA and nucleotide metabolism",RusA-like Holliday junction resolvase,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,93661,95028,,3987,"DNA, RNA and nucleotide metabolism",ribonucleotide reductase large subunit,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,95092,95181,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,95239,95631,,3844,"moron, auxiliary metabolic gene and host takeover",NrdA-like aerobic NDP reductase large subunit,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,95841,96572,,314,"DNA, RNA and nucleotide metabolism",homing endonuclease,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,96888,97418,,3844,"moron, auxiliary metabolic gene and host takeover",NrdA-like aerobic NDP reductase large subunit,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,97553,97422,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,97624,98655,,86,"DNA, RNA and nucleotide metabolism",ribonucleoside diphosphate reductase small subunit,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,98652,99104,,883,"moron, auxiliary metabolic gene and host takeover",flavodoxin,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,99107,99403,,9820,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,99538,99738,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,99822,100121,,9691,"DNA, RNA and nucleotide metabolism",thioredoxin domain,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,100124,100261,,9795,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,100264,101451,,12487,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,101448,102362,,619,other,ribose-phosphate pyrophosphokinase,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,102373,104157,,448,other,nicotinamide phosphoribosyl transferase,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,104244,106712,,9253,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,106806,107594,,1054,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,107587,107901,,379,"DNA, RNA and nucleotide metabolism",DNA binding protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,107984,108820,,4008,"DNA, RNA and nucleotide metabolism",DNA polymerase,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,108936,109433,,1035,"DNA, RNA and nucleotide metabolism",endonuclease VII,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,109557,109459,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,109659,111149,,17,"DNA, RNA and nucleotide metabolism",DNA polymerase,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,111282,111971,,2081,"DNA, RNA and nucleotide metabolism",HNH endonuclease,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,112187,112077,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,112155,112814,,5995,"DNA, RNA and nucleotide metabolism",DNA polymerase,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,112909,113385,,1069,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,113423,114571,,1867,"DNA, RNA and nucleotide metabolism",single strand DNA binding protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,114641,115885,,97,other,UvsX-like recombinase,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,115947,116324,,1089,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,116324,116962,,1025,transcription regulation,RNA polymerase sigma factor,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,117021,117386,,263,lysis,holin,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,117404,118111,,215,head and packaging,structural protein with Ig domain,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,118219,118605,,9872,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,118602,119531,,1850,other,exopolyphosphatase,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,119590,120861,,284,"DNA, RNA and nucleotide metabolism",exonuclease,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,120881,121264,,7143,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,121272,121817,,1080,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,121863,122069,,15858,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,122120,122827,,984,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,122838,123320,,2356,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,123380,124264,,1113,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,124357,124791,,9749,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,124797,125237,,6360,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,125338,126042,,9512,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,126047,127063,,249,"moron, auxiliary metabolic gene and host takeover",porphyrin biosynthesis,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,127050,127895,,7005,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,127957,128412,,7350,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,128418,128996,,7350,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,129035,129607,,10641,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,129604,130182,,10568,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,130175,130507,,9358,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,130634,130723,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,130793,131521,,1007,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,131536,132003,,1104,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,132118,133194,,9186,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,133242,133811,,9719,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,133814,134347,,9011,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,134362,135120,,9671,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+MN939539.1,,135172,135423,,10429,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,1,804,,18431,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,776,1018,,21823,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,1099,1578,,17084,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,1568,2002,,17542,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,1995,2456,,17753,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,2456,2722,,22,"DNA, RNA and nucleotide metabolism",thioredoxin domain,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,2706,3044,,18081,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,3151,3333,,18681,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,3340,3531,,6414,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,3553,4062,,7296,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,4077,4622,,7296,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,4619,4927,,17786,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,5442,4924,,59,"DNA, RNA and nucleotide metabolism",HNH endonuclease,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,5490,5588,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,5641,5754,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,5774,5884,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,5920,6204,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,6261,6494,,18584,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,6491,6580,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,6597,6929,,17663,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,7037,7270,,5149,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,7263,7556,,16753,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,7556,7756,,17278,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,7768,8115,,4264,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,8187,8633,,7822,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,8644,8931,,18105,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,8992,9816,,16892,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,9949,10248,,18690,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,10553,10642,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,10649,10774,,27735,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,11397,11080,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,11621,11427,,17121,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,11781,11638,,34951,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,12008,11823,,16767,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,12555,11998,,16663,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,12713,12570,,17830,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,13096,12710,,26006,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,13728,13096,,121,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,13976,13812,,19990,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,14142,13987,,23978,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,14396,14139,,1666,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,14892,14398,,20947,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,15170,14892,,18615,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,15414,15214,,6406,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,15769,15458,,959,"DNA, RNA and nucleotide metabolism",HNH endonuclease,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,16129,15833,,2316,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,16395,16150,,17911,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,16995,16396,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,17192,16992,,21092,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,17392,17195,,20263,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,18139,17435,,559,"DNA, RNA and nucleotide metabolism",HNH endonuclease,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,18351,18187,,27701,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,18776,18381,,559,"DNA, RNA and nucleotide metabolism",HNH endonuclease,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,19025,18825,,18055,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,19277,19035,,18191,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,19499,19290,,18373,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,19713,19513,,17919,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,20019,19765,,6406,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,20254,20009,,6406,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,20492,20247,,6406,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,20713,20489,,10526,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,20958,20725,,10526,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,21206,20955,,10628,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,21451,21218,,17836,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,21700,21464,,10628,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,22133,21690,,17491,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,22528,22142,,17111,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,22863,22732,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,22850,23350,,51,head and packaging,terminase small subunit,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,23353,25251,,3639,tail,minor tail protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,25264,26703,,18602,head and packaging,virion structural protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,26709,27065,,1009,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,27062,27346,,297,lysis,holin,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,27346,28293,,5115,"moron, auxiliary metabolic gene and host takeover",ferredoxin,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,28362,29705,,3717,head and packaging,terminase large subunit,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,29738,31387,,64,head and packaging,portal protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,31394,32179,,8089,head and packaging,head morphogenesis,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,32248,32889,,172,head and packaging,head scaffolding protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,32920,33825,,544,head and packaging,major head protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,33891,34088,,17541,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,34102,34980,,18435,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,35058,35417,,132,connector,head-tail adaptor,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,35414,35830,,16721,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,35766,36194,,17081,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,36194,36613,,176,connector,tail terminator,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,36637,37347,,41,tail,major tail protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,37448,37735,,18667,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,37798,38541,,17465,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,38541,41453,,1533,tail,tail length tape measure protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,41457,43547,,202,tail,distal tail protein Dit,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,43559,46348,,17797,tail,tail protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,46559,46395,,7571,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,46959,46588,,17281,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,47149,46949,,18550,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,47869,47162,,6883,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,47995,47906,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,48634,48116,,17927,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,48831,48631,,17662,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,49273,49175,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,49560,49333,,18039,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,49856,49719,,No_PHROGs_HMM,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,49839,50342,,59,"DNA, RNA and nucleotide metabolism",HNH endonuclease,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,50398,50781,,6154,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,50845,51582,,50,"DNA, RNA and nucleotide metabolism",DnaC-like helicase loader,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,51583,52911,,19,"DNA, RNA and nucleotide metabolism",DnaB-like replicative helicase,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,52988,53953,,47,"DNA, RNA and nucleotide metabolism",DNA primase,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,53947,54402,,17905,other,methyltransferase,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,54383,56650,,12241,"DNA, RNA and nucleotide metabolism",DNA polymerase,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,56706,57317,,59,"DNA, RNA and nucleotide metabolism",HNH endonuclease,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,57348,58343,,1706,"DNA, RNA and nucleotide metabolism",CRISPR/Cas system associated,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,58340,58852,,159,"DNA, RNA and nucleotide metabolism",RuvC-like Holliday junction resolvase,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,58854,59402,,139,other,deoxynucleoside monophosphate kinase,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,59380,59745,,517,"DNA, RNA and nucleotide metabolism",HTH DNA binding protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,59705,60115,,18507,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,60208,60900,,18628,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,60916,61140,,17749,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,61097,61369,,19802,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,61444,61722,,17709,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,61744,62766,,249,"moron, auxiliary metabolic gene and host takeover",porphyrin biosynthesis,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,62785,63696,,7005,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,63697,63963,,18040,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,63956,64636,,17535,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,64640,64873,,18570,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
+JX126919.1,,64914,65075,,17097,unknown function,hypothetical protein,ab initio prediction:PHANOTATE:1.6.7
