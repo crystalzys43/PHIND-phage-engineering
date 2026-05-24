@@ -26,6 +26,10 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 RANKED_CSV = PROJECT_ROOT / "results" / "candidate_phages_ranked.csv"
 CLASSIFIED_CSV = PROJECT_ROOT / "data" / "listeria_phages_classified.csv"
 INSERTION_CSV = PROJECT_ROOT / "results" / "insertion_sites_top10.csv"
+PHAROKKA_INSERTION_CSV = PROJECT_ROOT / "results" / "insertion_sites_pharokka.csv"
+DISTANCE_CSV = PROJECT_ROOT / "results" / "host_range" / "phage_distance_matrix.csv"
+RBP_CLUSTERS_CSV = PROJECT_ROOT / "results" / "host_range" / "rbp_clusters.csv"
+COCKTAIL_CSV = PROJECT_ROOT / "results" / "host_range" / "cocktail_recommendations.csv"
 
 # PHIND brand palette (matches pitch deck)
 TEAL = "#5BA8A0"
@@ -76,14 +80,41 @@ def load_full() -> pd.DataFrame:
 
 @st.cache_data
 def load_insertions() -> pd.DataFrame:
+    # Prefer Pharokka-rescored if available (Phase 2.2), else fall back to v1
+    if PHAROKKA_INSERTION_CSV.exists():
+        return pd.read_csv(PHAROKKA_INSERTION_CSV)
     if INSERTION_CSV.exists():
         return pd.read_csv(INSERTION_CSV)
+    return pd.DataFrame()
+
+
+@st.cache_data
+def load_distance() -> pd.DataFrame:
+    if DISTANCE_CSV.exists():
+        return pd.read_csv(DISTANCE_CSV, index_col=0)
+    return pd.DataFrame()
+
+
+@st.cache_data
+def load_rbp_clusters() -> pd.DataFrame:
+    if RBP_CLUSTERS_CSV.exists():
+        return pd.read_csv(RBP_CLUSTERS_CSV)
+    return pd.DataFrame()
+
+
+@st.cache_data
+def load_cocktail() -> pd.DataFrame:
+    if COCKTAIL_CSV.exists():
+        return pd.read_csv(COCKTAIL_CSV)
     return pd.DataFrame()
 
 
 ranked = load_ranked()
 full = load_full()
 insertions = load_insertions()
+distance = load_distance()
+rbp_clusters = load_rbp_clusters()
+cocktail = load_cocktail()
 
 
 # ---------------------------------------------------------------------------
@@ -178,13 +209,14 @@ c5.metric("Top-3 mean score", f"{ranked.head(3)['engineering_readiness_score'].m
 # Tabs — main content
 # ---------------------------------------------------------------------------
 
-tab1, tab2, tab3, tab4, tab5 = st.tabs(
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(
     [
         "🏆 Ranked Candidates",
         "📊 Score Breakdown",
         "🧬 Genome Landscape",
         "📋 Phage Detail",
         "🎯 Insertion Sites (Phase 2)",
+        "🤖 Host Range & Cocktail (Phase 3)",
     ]
 )
 
@@ -581,6 +613,151 @@ with tab5:
                 "with **Pharokka** to recover functional categories and "
                 "produce more accurate insertion-site scoring."
             )
+
+
+# === Tab 6: Phase 3 — Host Range & Cocktail Design =======================
+with tab6:
+    st.markdown("## Host range prediction & cocktail design")
+    st.markdown(
+        "Phase 3 uses **Meta AI's ESM-2 protein language model** (35M-parameter "
+        "variant, 480-dim embeddings) to compare the receptor binding protein "
+        "(RBP) repertoires of the top candidates. Phages whose RBPs cluster "
+        "closely in embedding space likely infect overlapping bacterial strains; "
+        "phages with divergent RBP repertoires are complementary in a cocktail."
+    )
+
+    if distance.empty or rbp_clusters.empty or cocktail.empty:
+        st.warning(
+            "Phase 3 outputs missing. Run "
+            "`python src/host_range/01_extract_and_embed_rbp.py` and "
+            "`python src/host_range/02_analyze_host_range.py` first."
+        )
+    else:
+        # ---- Cocktail recommendation (headline result) ----
+        st.markdown("### 🏆 Recommended cocktails")
+        st.markdown(
+            "Greedy expansion starting from the top-ranked phage. At each step "
+            "the algorithm adds the candidate that contributes the most "
+            "**new RBP clusters** to the cocktail."
+        )
+
+        name_lookup = dict(zip(ranked["accession"], ranked["name"]))
+
+        cocktail_display = cocktail.copy()
+        cocktail_display["phage_names"] = cocktail_display["phages"].apply(
+            lambda s: " + ".join([
+                name_lookup.get(p.strip(), p.strip()).replace("Listeria phage ", "").split(",")[0]
+                for p in s.split("+")
+            ])
+        )
+        st.dataframe(
+            cocktail_display[["size", "phage_names", "covered_clusters", "new_clusters_added"]].rename(
+                columns={
+                    "size": "Size",
+                    "phage_names": "Cocktail",
+                    "covered_clusters": "RBP clusters covered",
+                    "new_clusters_added": "Newly added by this step",
+                }
+            ),
+            hide_index=True,
+            use_container_width=True,
+            column_config={
+                "RBP clusters covered": st.column_config.ProgressColumn(
+                    format="%d", min_value=0,
+                    max_value=int(cocktail_display["covered_clusters"].max()),
+                ),
+            },
+        )
+
+        st.info(
+            "**PHIND implication:** the optimal 2-phage cocktail covers all "
+            "detectable RBP clusters with just A511 + P70. Adding P100 or "
+            "vB_Lino_VEfB7 contributes zero new host coverage because they "
+            "share A511's RBP family (all *Pecentumvirus*). Use P100 only "
+            "for its regulatory headroom (FDA LISTEX dossier), not for host "
+            "range expansion."
+        )
+
+        # ---- Pairwise distance heatmap ----
+        st.markdown("### 🗺️ Pairwise RBP-repertoire distance")
+        st.markdown(
+            "For each pair of phages, the average minimum cosine distance "
+            "from each RBP in one phage to the closest RBP in the other. "
+            "Higher = more complementary."
+        )
+
+        short = lambda a: name_lookup.get(a, a).replace("Listeria phage ", "").split(",")[0][:18]
+        labels = [short(a) for a in distance.index]
+        fig = go.Figure(
+            data=go.Heatmap(
+                z=distance.values,
+                x=labels, y=labels,
+                colorscale=[[0, "white"], [1, TEAL_DARK]],
+                text=[[f"{v:.3f}" for v in row] for row in distance.values],
+                texttemplate="%{text}",
+                textfont={"size": 11, "color": NAVY},
+                hoverongaps=False,
+            )
+        )
+        fig.update_layout(
+            height=420,
+            margin=dict(l=10, r=10, t=20, b=10),
+            xaxis=dict(side="bottom"),
+            yaxis=dict(autorange="reversed"),
+        )
+        st.plotly_chart(fig, use_container_width=True)
+
+        # ---- RBP clusters ----
+        st.markdown("### 🧪 RBP cluster composition")
+        st.markdown(
+            "All 38 extracted RBPs grouped into 8 clusters by ESM-2 embedding "
+            "similarity. A phage's 'host range' is the union of clusters its "
+            "RBPs belong to."
+        )
+
+        cluster_summary = rbp_clusters.groupby("rbp_cluster").agg(
+            n_rbps=("accession", "count"),
+            n_phages=("accession", "nunique"),
+            phages=("accession", lambda s: ", ".join(sorted(set(s)))),
+            example_annot=("phrog_annot", lambda s: s.iloc[0][:50] if len(s) > 0 else ""),
+        ).reset_index()
+        cluster_summary.columns = [
+            "Cluster", "# RBPs", "# Phages", "Phages with this cluster", "Example annotation",
+        ]
+        st.dataframe(cluster_summary, hide_index=True, use_container_width=True)
+
+        # ---- Per-phage RBP cluster fingerprint ----
+        st.markdown("### 🧬 Per-phage RBP fingerprint")
+        fingerprint = (
+            rbp_clusters.groupby(["accession", "rbp_cluster"])
+            .size()
+            .unstack(fill_value=0)
+        )
+        # Sort by ranked order
+        order = [a for a in ranked["accession"] if a in fingerprint.index]
+        fingerprint = fingerprint.loc[order]
+        fingerprint.index = [short(a) for a in fingerprint.index]
+
+        fp_fig = go.Figure(
+            data=go.Heatmap(
+                z=fingerprint.values,
+                x=[f"Cluster {c}" for c in fingerprint.columns],
+                y=fingerprint.index,
+                colorscale=[[0, "white"], [1, TEAL]],
+                text=fingerprint.values.astype(int),
+                texttemplate="%{text}",
+                textfont={"size": 12, "color": NAVY},
+            )
+        )
+        fp_fig.update_layout(height=320, margin=dict(l=10, r=10, t=20, b=10))
+        st.plotly_chart(fp_fig, use_container_width=True)
+
+        st.caption(
+            "Each cell shows how many of that phage's RBPs fall into that "
+            "cluster. Phages with the same fingerprint are redundant in a "
+            "cocktail; phages with non-overlapping fingerprints are "
+            "complementary."
+        )
 
 
 # ---------------------------------------------------------------------------
