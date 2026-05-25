@@ -20,44 +20,63 @@ plt.rcParams["font.sans-serif"] = ["Helvetica Neue", "Arial", "DejaVu Sans"]
 
 
 # =====================================================================
-# Figure 1: Pipeline funnel
+# Figure 1: Pipeline funnel (labels outside the bars, never clipped)
 # =====================================================================
-fig, ax = plt.subplots(figsize=(9, 4.5), dpi=150)
+fig, ax = plt.subplots(figsize=(11, 4.2), dpi=150)
 fig.patch.set_facecolor("white")
 
-stages = ["NCBI search", "Listeria host", "Lytic candidates", "After dedup"]
+stages = ["NCBI keyword search", "Listeria host (filter 1)",
+          "Lytic candidates (filter 2)", "After RefSeq dedup"]
 values = [230, 128, 32, 25]
 colors = [TEAL, TEAL_DARK, NAVY, "#0F1F33"]
 
+# x-axis grid: bars start at x=0.30 and grow rightward proportionally.
+# Labels go on the LEFT (x<0.30), counts on the RIGHT (after the bar),
+# loss annotations even further right.
 max_val = max(values)
+LEFT_BAR = 0.30
+BAR_SPAN = 0.45     # bars never exceed 0.45 of figure width
+BAR_HEIGHT = 0.55
+ROW_GAP = 0.85
+
 for i, (stage, value, color) in enumerate(zip(stages, values, colors)):
-    width = value / max_val * 0.85
-    left = (1 - width) / 2
+    y = -i * ROW_GAP
+    width = value / max_val * BAR_SPAN
     rect = mpatches.Rectangle(
-        (left, i * -0.7), width, 0.55,
+        (LEFT_BAR, y), width, BAR_HEIGHT,
         facecolor=color, edgecolor="white", linewidth=2,
     )
     ax.add_patch(rect)
+
+    # Label on the LEFT (right-aligned to bar start)
     ax.text(
-        0.5, i * -0.7 + 0.275, f"{value}   {stage}",
-        ha="center", va="center", fontsize=14,
-        color="white", fontweight="bold",
+        LEFT_BAR - 0.02, y + BAR_HEIGHT / 2, stage,
+        ha="right", va="center", fontsize=13, color=NAVY, fontweight="bold",
     )
+    # Count immediately AFTER the bar
+    ax.text(
+        LEFT_BAR + width + 0.015, y + BAR_HEIGHT / 2, f"n = {value}",
+        ha="left", va="center", fontsize=13, color=color, fontweight="bold",
+    )
+    # Loss annotation FURTHER right (only between stages)
     if i < len(stages) - 1:
         loss = values[i] - values[i + 1]
         loss_pct = 100 * loss / values[i]
-        ax.text(
-            1 - left + 0.02, i * -0.7 + 0.275,
-            f"−{loss}\n({loss_pct:.0f}%)",
-            ha="left", va="center", fontsize=9, color="#888888", style="italic",
+        ax.annotate(
+            f"−{loss}  ({loss_pct:.0f}%)",
+            xy=(LEFT_BAR + width / 2, y),
+            xytext=(0.95, y - ROW_GAP / 2),
+            ha="right", va="center",
+            fontsize=10, color="#888888", style="italic",
+            arrowprops=dict(arrowstyle="-", color="#cccccc", lw=0.8),
         )
 
-ax.set_xlim(-0.1, 1.3)
-ax.set_ylim(-3.0, 0.3)
+ax.set_xlim(0, 1.0)
+ax.set_ylim(-(len(stages) - 1) * ROW_GAP - 0.2, 0.6)
 ax.axis("off")
 ax.set_title(
-    "PHIND Phage Engineering Atlas: 230 to 25 ranked candidates",
-    fontsize=15, color=NAVY, pad=15, fontweight="bold",
+    "PHIND Phage Engineering Atlas: 230 candidates  to  25 ranked",
+    fontsize=15, color=NAVY, pad=15, fontweight="bold", loc="left", x=0.02,
 )
 plt.tight_layout()
 plt.savefig(IMG_DIR / "pipeline_funnel.png", bbox_inches="tight", facecolor="white")
